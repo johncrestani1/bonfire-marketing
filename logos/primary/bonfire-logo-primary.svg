@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <mask id="flame-cutout">
+      <rect width="32" height="32" fill="white"/>
+      <path d="M16 4 C16 4 10 10 10 16 C10 17.5 10.5 19 11.5 20.2 C11 18.5 11.5 16.5 13 15 C13 17.5 14 19.5 15 20.5 C14.5 18 15.5 15.5 16 14 C16.5 15.5 17.5 18 17 20.5 C18 19.5 19 17.5 19 15 C20.5 16.5 21 18.5 20.5 20.2 C21.5 19 22 17.5 22 16 C22 10 16 4 16 4Z" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="16" cy="16" r="15" fill="#f94238" mask="url(#flame-cutout)"/>
+</svg>
