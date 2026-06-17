@@ -3,60 +3,79 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>How One Creator Stopped Paying for AI — And Got Better Results</title>
+<title>The Quiet Revolt Against Cloud AI That Silicon Valley Doesn't Want You to See</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#0d0d0d;color:#e8e8e8;font-family:'Rajdhani','Segoe UI',sans-serif}
 .article{max-width:720px;margin:0 auto;padding:40px 24px}
-h1{font-family:'Orbitron',monospace;font-weight:900;font-size:1.6rem;text-transform:uppercase;letter-spacing:2px;color:#f94238;margin-bottom:8px;line-height:1.3}
+h1{font-family:'Orbitron',monospace;font-weight:900;font-size:1.5rem;text-transform:uppercase;letter-spacing:2px;color:#f94238;margin-bottom:8px;line-height:1.4}
 .meta{font-size:0.85rem;color:#666;margin-bottom:28px;border-bottom:1px solid #222;padding-bottom:16px}
 h2{font-family:'Orbitron',monospace;font-weight:700;font-size:1rem;text-transform:uppercase;letter-spacing:1.5px;color:#FF9000;margin:28px 0 12px}
 p{font-size:1rem;line-height:1.7;color:#ccc;margin-bottom:16px}
-.pullquote{border-left:4px solid #b29d60;padding:16px 20px;margin:24px 0;background:#141414;font-size:1.1rem;color:#e8e8e8;font-weight:500;font-style:italic}
+.pullquote{border-left:4px solid #b29d60;padding:16px 20px;margin:24px 0;background:#141414;font-size:1.05rem;color:#e8e8e8;font-weight:500;font-style:italic}
 .callout{background:linear-gradient(135deg,#f94238 0%,#ff8c42 50%,#ffcc02 100%);padding:2px}
 .callout-inner{background:#0d0d0d;padding:24px;text-align:center}
 .callout-inner p{color:#e8e8e8;margin-bottom:16px}
 .cta{display:inline-block;background:#f94238;color:#fff;padding:14px 36px;font-family:'Orbitron',monospace;font-size:0.9rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;border-radius:0}
 .cta:hover{background:#ff8c42}
 .disclosure{font-size:0.75rem;color:#555;margin-top:40px;border-top:1px solid #222;padding-top:16px}
+strong{color:#e8e8e8}
 </style>
 </head>
 <body>
 <div class="article">
-  <h1>How One Creator Stopped Paying for AI — And Got Better Results</h1>
-  <p class="meta">A look at the local-first AI movement and the tool leading it</p>
+  <h1>The Quiet Revolt Against Cloud AI That Silicon Valley Doesn't Want You to See</h1>
+  <p class="meta">A growing movement of creators is abandoning cloud AI — and building something more dangerous</p>
 
-  <p>Last year I was spending $200/month on AI subscriptions. ChatGPT Plus, Claude Pro, Midjourney, various transcription services. Every month, another charge. Every prompt, another piece of my content sent to someone else's server.</p>
+  <p>There's a story being suppressed in the tech press right now. Not by censors — by irrelevance. The journalists covering AI are fixated on the billion-dollar model wars: OpenAI vs. Anthropic vs. Google. The arms race for the biggest, most expensive, most centralized AI.</p>
 
-  <p>Then I started asking a different question: <strong>what if the AI ran on my own machine?</strong></p>
+  <p>Meanwhile, something else is happening. Quietly. On individual machines, in home offices, on hardware from 2013.</p>
 
-  <h2>The Problem With Cloud AI</h2>
-  <p>Every time you paste client copy into ChatGPT, that data hits OpenAI's servers. Every voice note you transcribe goes through someone else's infrastructure. For content creators handling brand work, client material, or anything remotely sensitive — that's a liability hiding in plain sight.</p>
+  <p><strong>People are running AI locally. And they're not coming back.</strong></p>
 
-  <p>And the costs add up. $20 here, $30 there, API overages when a project spikes. It's death by a thousand subscriptions.</p>
+  <h2>The Story Nobody Is Telling</h2>
 
-  <h2>The Local Alternative</h2>
-  <p>Bonfire Terminal flipped the model. Instead of sending your data to the cloud, it runs AI models directly on your computer. Speech-to-text, image editing, video generation, text AI — all local. Nothing leaves your machine unless you explicitly choose a cloud provider.</p>
+  <p>When John Crestani — the affiliate marketer Forbes profiled after he built a $500K/month business from his laptop — started building Bonfire Terminal, nobody in Silicon Valley noticed. That was the point.</p>
 
-  <div class="pullquote">"I send a voice note from my phone via Telegram. Bonfire transcribes it on my desktop. The transcription comes back to my phone in seconds. No cloud involved."</div>
+  <p>Bonfire doesn't compete with ChatGPT. It replaces the <em>need</em> for ChatGPT. The AI runs on your machine. Your prompts never leave your device. Your client data, your brand voice, your creative work — it all stays where you can see it, audit it, and control it.</p>
 
-  <p>The bridge architecture is what makes it practical. You don't need to learn a new interface or sit at your desk. Your phone's messaging app IS the interface. Bonfire's daemon runs in the background on your computer, connected to Telegram, Discord, WhatsApp, Slack — whichever platform you already use.</p>
+  <div class="pullquote">"The most powerful technology movements don't announce themselves. They spread through use, not through press releases. By the time the establishment notices, it's already too late to stop."</div>
 
-  <h2>What Changed For Me</h2>
-  <p>My monthly AI costs dropped from $200 to the cost of electricity. My client data stays on a machine I control. And honestly? The workflow is faster. Voice note → transcription → AI edit → back on my phone. No browser tabs, no copy-paste, no waiting for cloud responses.</p>
+  <h2>Why This Matters More Than You Think</h2>
 
-  <p>Is it as powerful as GPT-4 for complex reasoning? No — the bundled local model (TinyLlama) is smaller. But for 80% of content creation tasks, it's more than enough. And when you need the big guns, Bonfire connects to OpenAI, Claude, Gemini, and Grok through direct API — you just bring your own key.</p>
+  <p>Consider what you're doing every time you paste copy into a cloud AI tool. You're training someone else's model. You're giving away the patterns of your work. You're creating a dependency on infrastructure you don't control, at prices you can't negotiate.</p>
 
-  <h2>The Bottom Line</h2>
-  <p>If you're a content creator who values privacy, hates subscription creep, and wants AI that works through the apps you already use — this is worth trying. 21-day free trial, single installer, no credit card.</p>
+  <p>The cloud AI companies know this. Their entire business model depends on you <em>not</em> realizing that the alternative already exists.</p>
+
+  <p>Bonfire Terminal ships as a single 2GB installer with 16 bundled tools. Speech-to-text. Image editing. Video generation. Text AI. All local. You interact through Telegram, Discord, WhatsApp — the apps already on your phone. The daemon runs on your desktop, processes locally, sends the result back to your phone.</p>
+
+  <p>No subscription. No API overage. No terms of service change that suddenly makes your workflow illegal.</p>
+
+  <h2>The Bandwagon Is Moving</h2>
+
+  <p>This isn't theory. Creators are making the switch. The ones who handle client work and realized they'd been feeding proprietary material to third-party servers for years. The ones tired of $200/month in stacking AI subscriptions. The ones who read the news about AI companies using customer data for training and decided enough was enough.</p>
+
+  <p>They're not loud about it. That's not the point. The point is they stopped asking permission from cloud providers to use AI. They just started running it themselves.</p>
+
+  <div class="pullquote">"Every great movement begins with people who simply stop complying. They don't protest. They don't petition. They build the alternative and move on. That's what's happening with local AI."</div>
+
+  <h2>The Window Is Open</h2>
+
+  <p>Right now, most creators don't know this option exists. The cloud AI companies spend billions on marketing to make sure of that. Every "free tier" is designed to get you dependent before the real pricing kicks in.</p>
+
+  <p>Bonfire Terminal offers a 21-day trial. No credit card. No catch. Just download, install, and see what it's like when AI works for you instead of harvesting from you.</p>
+
+  <p>The window won't stay open forever. As local AI gains momentum, expect the cloud providers to respond — with lock-in, with licensing restrictions, with FUD about "safety" and "alignment" that conveniently only applies to AI they don't control.</p>
+
+  <p>The creators who move first will have the advantage. They always do.</p>
 
   <div class="callout"><div class="callout-inner">
-    <p><strong>Ready to run AI on your own terms?</strong></p>
+    <p><strong>Join the creators running AI on their own terms.</strong></p>
     <a href="{{REFERRAL_URL}}" class="cta">Try Bonfire Free</a>
   </div></div>
 
-  <p class="disclosure">Disclosure: This page contains affiliate links. If you sign up through the link above, we may receive a commission at no extra cost to you. We only recommend products we've personally used.</p>
+  <p class="disclosure">This page contains affiliate links. We may receive a commission at no extra cost to you.</p>
 </div>
 </body>
 </html>

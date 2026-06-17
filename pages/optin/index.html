@@ -3,38 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Try Bonfire Terminal Free — Local AI for Creators</title>
+<title>Bonfire Terminal — Run AI on Your Machine, Not Theirs</title>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#0d0d0d;color:#e8e8e8;font-family:'Rajdhani','Segoe UI',sans-serif;min-height:100vh}
-.hero{max-width:800px;margin:0 auto;padding:60px 30px;text-align:center}
-h1{font-family:'Orbitron',monospace;font-weight:900;font-size:2.4rem;text-transform:uppercase;letter-spacing:3px;color:#f94238;margin-bottom:8px}
-h2{font-family:'Orbitron',monospace;font-weight:700;font-size:1rem;text-transform:uppercase;letter-spacing:2px;color:#b29d60;margin-bottom:24px}
-.desc{font-size:1.1rem;color:#999;line-height:1.6;margin-bottom:32px;max-width:600px;margin-left:auto;margin-right:auto}
-.features{display:grid;grid-template-columns:1fr 1fr;gap:16px;text-align:left;margin-bottom:36px;max-width:500px;margin-left:auto;margin-right:auto}
-.feat{background:#141414;padding:16px;border-left:3px solid #f94238}
-.feat-title{font-weight:700;color:#FF9000;font-size:0.95rem;margin-bottom:4px}
-.feat-desc{font-size:0.85rem;color:#999}
-.cta{display:inline-block;background:#f94238;color:#fff;padding:16px 40px;font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;border-radius:0;transition:background 0.2s}
+.hero{max-width:800px;margin:0 auto;padding:60px 30px}
+h1{font-family:'Orbitron',monospace;font-weight:900;font-size:2rem;text-transform:uppercase;letter-spacing:3px;color:#f94238;margin-bottom:8px;text-align:center}
+h2{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transform:uppercase;letter-spacing:2px;color:#b29d60;margin-bottom:28px;text-align:center}
+.problem{font-size:1.05rem;color:#ccc;line-height:1.7;margin-bottom:12px;text-align:center;max-width:620px;margin-left:auto;margin-right:auto}
+.problem strong{color:#FF9000}
+.anchor{background:#141414;border-left:4px solid #f94238;padding:20px;margin:28px 0;font-size:1rem;color:#ccc}
+.anchor .price{font-family:'Orbitron',monospace;font-size:1.3rem;color:#f94238;font-weight:700}
+.anchor .compare{color:#666;text-decoration:line-through}
+.proof{margin:28px 0}
+.proof-item{display:flex;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid #1A1A1A}
+.proof-num{font-family:'Orbitron',monospace;color:#FF9000;font-weight:700;font-size:1.1rem;min-width:80px;text-align:right}
+.proof-text{color:#999;font-size:0.95rem}
+.stack{background:#141414;padding:24px;margin:28px 0}
+.stack-title{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transform:uppercase;letter-spacing:1.5px;color:#b29d60;margin-bottom:16px}
+.stack-item{padding:6px 0;color:#ccc;font-size:0.95rem}
+.stack-item::before{content:"+ ";color:#259F70;font-weight:700}
+.cta-box{text-align:center;padding:32px 0}
+.cta{display:inline-block;background:#f94238;color:#fff;padding:16px 44px;font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;border-radius:0}
 .cta:hover{background:#ff8c42}
-.sub{font-size:0.8rem;color:#666;margin-top:16px}
-@media(max-width:600px){.features{grid-template-columns:1fr}h1{font-size:1.6rem}}
+.scarcity{text-align:center;font-size:0.85rem;color:#E63946;font-weight:600;margin-top:12px}
+.sub{text-align:center;font-size:0.8rem;color:#666;margin-top:8px}
+@media(max-width:600px){h1{font-size:1.4rem}}
 </style>
 </head>
 <body>
 <div class="hero">
   <h1>Bonfire Terminal</h1>
-  <h2>Private AI Terminal</h2>
-  <p class="desc">AI models, speech-to-text, image editing, and video creation — all running on YOUR hardware. No cloud dependency. No monthly subscription. No data leaves your device.</p>
-  <div class="features">
-    <div class="feat"><div class="feat-title">100% Local</div><div class="feat-desc">AI runs on your machine. Zero cloud.</div></div>
-    <div class="feat"><div class="feat-title">Bridge Architecture</div><div class="feat-desc">Works through Telegram, Discord, WhatsApp.</div></div>
-    <div class="feat"><div class="feat-title">16 Bundled Tools</div><div class="feat-desc">FFmpeg, Whisper, TinyLlama — all included.</div></div>
-    <div class="feat"><div class="feat-title">One Installer</div><div class="feat-desc">2GB download. Zero setup. Zero dependencies.</div></div>
+  <h2>Private AI Terminal by John Crestani</h2>
+
+  <p class="problem">You're spending <strong>$200/month</strong> on AI subscriptions — ChatGPT Plus ($20), Claude Pro ($20), transcription services ($30), image tools ($50), various APIs ($80+). And every single prompt goes through someone else's server.</p>
+
+  <p class="problem">What if you could run all of that on your own machine? <strong>For the cost of electricity?</strong></p>
+
+  <div class="anchor">
+    <p>Others charge: <span class="compare">$200/month × 12 = $2,400/year</span></p>
+    <p>Bonfire Terminal: <span class="price">$0 for 21 days</span> — then decide if local AI is worth it.</p>
   </div>
-  <a href="{{REFERRAL_URL}}" class="cta">Try Free for 21 Days</a>
-  <p class="sub">Windows 10+. No credit card required.</p>
+
+  <div class="proof">
+    <div class="proof-item"><span class="proof-num">16</span><span class="proof-text">bundled toolchains — FFmpeg, Whisper, TinyLlama, Python, Node, Go, and 10 more</span></div>
+    <div class="proof-item"><span class="proof-num">6</span><span class="proof-text">messaging bridges — Telegram, Discord, WhatsApp, Slack, Twilio, REST API</span></div>
+    <div class="proof-item"><span class="proof-num">5</span><span class="proof-text">AI providers — local TinyLlama, OpenAI, Claude, Gemini, Grok (bring your own key)</span></div>
+    <div class="proof-item"><span class="proof-num">1,302</span><span class="proof-text">Bazel build actions per release — 35 quality gates, deterministic, signed</span></div>
+    <div class="proof-item"><span class="proof-num">0</span><span class="proof-text">bytes of your data sent to the cloud (with local models)</span></div>
+  </div>
+
+  <div class="stack">
+    <div class="stack-title">What You Get</div>
+    <div class="stack-item">Rust daemon — local AI orchestration engine</div>
+    <div class="stack-item">Electron UI — 3-pane desktop app (Terminal, AlphaChat, Settings)</div>
+    <div class="stack-item">Speech-to-text — Whisper running locally</div>
+    <div class="stack-item">Image editing — FFmpeg-powered, no cloud</div>
+    <div class="stack-item">Video creation — zoompan proof videos from your photos</div>
+    <div class="stack-item">Bridge architecture — AI through your phone's messaging app</div>
+    <div class="stack-item">EV code-signed installer — trusted by Windows SmartScreen</div>
+  </div>
+
+  <div class="cta-box">
+    <a href="{{REFERRAL_URL}}" class="cta">Start Your 21-Day Free Trial</a>
+    <p class="scarcity">No credit card required. No auto-billing. No catch.</p>
+    <p class="sub">Windows 10+. 2GB download. Works on machines from 2013+.</p>
+  </div>
 </div>
 </body>
 </html>

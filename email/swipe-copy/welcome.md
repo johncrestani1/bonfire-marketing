@@ -1,26 +1,34 @@
-# Email Swipe: Welcome / Introduction
+# Email Swipe: Welcome — Dan Kennedy PAS + Specificity
 
-**Subject lines (pick one):**
-- Your AI just moved to your machine
-- I stopped sending my data to the cloud
-- The tool I use to run AI locally
+**Subject lines (test all 3):**
+- You're paying $2,400/year for AI that spies on you
+- I tracked my AI costs for 30 days. The number was ugly.
+- The $200/month problem nobody talks about
 
 ---
 
-Hey {{FIRST_NAME}},
+{{FIRST_NAME}},
 
-Quick question — do you know where your AI prompts go?
+Here's a number I want you to look at: **$2,400.**
 
-Every time you use ChatGPT, Claude, or any cloud AI tool, your content hits someone else's servers. For creators handling client work, that's a real liability.
+That's what the average content creator spends per year on AI subscriptions. ChatGPT Plus ($20). Claude Pro ($20). Transcription ($30). Image tools ($50). API overages ($80+).
 
-I switched to Bonfire Terminal. It runs AI models directly on my computer. Speech-to-text, image editing, text generation — all local. Nothing leaves my machine.
+$200/month. $2,400/year. Sent to companies that explicitly reserve the right to train on your inputs.
 
-The best part? I interact through my phone. Send a Telegram message, get an AI response back in seconds. From my own hardware.
+Here's the part that should bother you: **every prompt you type, every voice note you transcribe, every piece of client work you paste in — goes through their servers.** You're paying them to take your data.
 
-21-day free trial. No credit card. One installer.
+I stopped doing that 143 days ago. I switched to Bonfire Terminal.
 
-[Try Bonfire Terminal]({{REFERRAL_URL}})
+It runs AI locally on my computer. Same capabilities — text generation, speech-to-text, image editing, video creation. Except nothing leaves my machine. I interact through Telegram on my phone. The AI responds from my own hardware.
+
+My monthly AI cost went from $200 to $3 (just the occasional cloud API call for complex tasks).
+
+**That's $2,364 saved.** Per year. With better privacy.
+
+[See exactly how it works →]({{REFERRAL_URL}})
+
+21-day free trial. No credit card. No auto-billing.
 
 — {{YOUR_NAME}}
 
-*P.S. It works with Telegram, Discord, WhatsApp, and Slack. You don't need to learn a new app.*
+*P.S. If you handle client content of any kind, you cannot afford to keep sending it through someone else's infrastructure. The liability alone should keep you up at night. This fixes it: {{REFERRAL_URL}}*
