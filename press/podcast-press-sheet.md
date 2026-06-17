@@ -3,10 +3,10 @@
 ## Bio
 
 ### Short (2 sentences)
-John Crestani is the founder of Bonfire Terminal, a local-first AI platform that gives content creators direct control over AI on their own hardware. He previously built a 9-figure affiliate marketing business and now focuses on making AI tools transparent, private, and accessible.
+John Crestani is the founder of Bonfire Terminal, a local-first AI platform that gives marketers, content creators, and coaches direct control over AI on their own hardware. He previously built a 9-figure affiliate marketing business and now focuses on making AI tools transparent, private, and accessible to serious professionals.
 
 ### Long (1 paragraph)
-John Crestani is an entrepreneur, investor, and the founder of Bonfire Terminal — a desktop application that runs AI locally on creators' machines with zero cloud dependency. After building one of the largest affiliate marketing operations in the world, generating over $100M in tracked revenue, John turned his focus to the intersection of AI and content creation. Bonfire Terminal is his answer to the black-box AI problem: a tool where every prompt, every model, and every data path is visible, auditable, and under the creator's control. The product ships as a single installer with bundled AI models, speech-to-text, image editing, and video creation — all running on the user's own hardware.
+John Crestani is an entrepreneur, investor, and the founder of Bonfire Terminal — a desktop application that runs AI locally on creators' machines with zero cloud dependency. After building one of the largest affiliate marketing operations in the world, generating over $100M in tracked revenue, John turned his focus to the intersection of AI and content creation. Bonfire Terminal is his answer to the black-box AI problem: a tool where every prompt, every model, and every data path is visible, auditable, and under the creator's control. The product ships as a single installer with bundled AI models, speech-to-text, image editing, and video creation — all running on the user's own hardware. It's a $5,000 one-time investment that replaces $2,400/year in cloud AI subscriptions, purpose-built for marketers, content creators, and coaches who handle sensitive client data.
 
 ## Social Links
 
@@ -20,17 +20,20 @@ John Crestani is an entrepreneur, investor, and the founder of Bonfire Terminal 
 
 ## Bonfire Terminal — Product Summary
 
-Bonfire Terminal is a local-first AI harness for content creators. It bridges messaging platforms (Telegram, Discord, WhatsApp, Slack) to local AI models running on the user's own machine. No cloud API required. No data leaves the device. Users interact with AI through their phone's messaging app and get back edited images, transcribed audio, generated videos, and AI-assisted content — all processed locally.
+Bonfire Terminal is a local-first AI platform for marketers, content creators, and coaches. It bridges messaging platforms (Telegram, Discord, WhatsApp, Slack) to local AI models running on the user's own machine. No cloud API required. No data leaves the device. Users interact with AI through their phone's messaging app and get back edited images, transcribed audio, generated videos, and AI-assisted content — all processed locally.
+
+**Pricing:** $5,000 one-time investment. No subscription. No recurring fees. Replaces $2,400/year in cloud AI subscriptions. Pays for itself in 25 months, then saves $2,400/year for life.
 
 **Key differentiators**:
 - 100% local execution — AI models, speech-to-text, and media processing run on the user's hardware
 - Bridge architecture — works through existing messaging apps (Telegram, Discord, WhatsApp, Slack, Twilio)
 - Bundled toolstack — ships with locked versions of FFmpeg, Whisper, TinyLlama, and 16 other tools
 - Transparent by design — no hidden data collection, every prompt visible, open architecture
+- One-time investment — no subscription, no recurring fees, own your AI stack forever
 
 ## Suggested Interview Topics
 
-1. **Why local AI matters for creators** — The case for keeping AI on your own machine instead of sending everything to the cloud. Privacy, cost, control, and the "AI black box" problem.
+1. **Why local AI matters for marketers, creators, and coaches** — The case for keeping AI on your own machine instead of sending everything to the cloud. Privacy, cost, control, and the "AI black box" problem.
 
 2. **From affiliate marketing to AI tooling** — How building a 9-figure affiliate business revealed the need for better creator tools, and why AI is the next lever.
 
@@ -38,7 +41,7 @@ Bonfire Terminal is a local-first AI harness for content creators. It bridges me
 
 4. **Building in public with Bazel** — The engineering decisions behind Bonfire Terminal: Rust daemon, Electron UI, Bazel build system, and why shipping a 2GB installer is the right call.
 
-5. **The affiliate model for software** — How Bonfire Terminal's referral/affiliate system works, and why giving creators tools to promote is better than running ads.
+5. **The $5,000 one-time model vs. SaaS** — Why Bonfire chose a one-time premium price instead of monthly subscriptions, and how that aligns with the creators' interests over the company's.
 
 6. **AI regulation and creator rights** — Why local-first AI puts creators ahead of regulation. If the model runs on your machine, you own the output.
 
@@ -49,6 +52,7 @@ Bonfire Terminal is a local-first AI harness for content creators. It bridges me
 | Metric | Value |
 |---|---|
 | Version | 2.7.296 |
+| Price | $5,000 one-time |
 | Bundled tools | 16 locked toolchains |
 | Supported bridges | 6 (Telegram, Discord, Slack, WhatsApp, Twilio, REST API) |
 | AI providers | 5 (Local/TinyLlama, OpenAI, Claude, Gemini, Grok) |

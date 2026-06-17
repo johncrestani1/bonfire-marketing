@@ -14,11 +14,11 @@ h1{font-family:'Orbitron',monospace;font-weight:900;font-size:1.8rem;text-transf
 .agitate strong{color:#FF9000}
 .solve{font-size:1rem;color:#999;margin-bottom:28px;line-height:1.5}
 .proof{font-size:0.85rem;color:#b29d60;margin-bottom:20px;letter-spacing:0.5px}
-.form{display:flex;flex-direction:column;gap:12px;margin-bottom:16px}
-input[type="email"]{background:#1A1A1A;border:1px solid #333;color:#e8e8e8;padding:14px 16px;font-family:'Rajdhani',sans-serif;font-size:1rem;font-weight:500;border-radius:0;outline:none}
-input[type="email"]:focus{border-color:#f94238}
-input[type="email"]::placeholder{color:#666}
-.btn{background:#f94238;color:#fff;border:none;padding:16px;font-family:'Orbitron',monospace;font-size:0.85rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;cursor:pointer;border-radius:0;transition:background 0.2s}
+.anchor{background:#141414;border-left:4px solid #f94238;padding:20px;margin:0 0 24px;text-align:left;font-size:1rem;color:#ccc}
+.anchor .price{font-family:'Orbitron',monospace;font-size:1.3rem;color:#f94238;font-weight:700}
+.anchor .compare{color:#666;text-decoration:line-through}
+.cta-box{margin-bottom:16px}
+.btn{display:inline-block;background:#f94238;color:#fff;border:none;padding:16px 36px;font-family:'Orbitron',monospace;font-size:0.85rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;cursor:pointer;border-radius:0;transition:background 0.2s;text-decoration:none}
 .btn:hover{background:#ff8c42}
 .scarcity{font-size:0.8rem;color:#E63946;margin-top:12px;font-weight:600}
 .trust{font-size:0.75rem;color:#555;margin-top:12px}
@@ -28,14 +28,20 @@ input[type="email"]::placeholder{color:#666}
 <div class="container">
   <h1>Stop Sending Your Content to Someone Else's Server</h1>
   <p class="agitate">Every prompt you type into ChatGPT hits OpenAI's servers. Every voice note you transcribe goes through their infrastructure. Every piece of client work you paste in? <strong>You just gave it away.</strong></p>
-  <p class="agitate">And you're paying $20-200/month for the privilege.</p>
-  <p class="solve">There's a tool that runs the same AI capabilities on YOUR machine. No cloud. No subscriptions. No data leaving your device. It works through the messaging apps already on your phone.</p>
+  <p class="agitate">And you're paying $200/month for the privilege. That's <strong>$2,400 every year</strong> — forever.</p>
+  <p class="solve">Bonfire Terminal runs the same AI capabilities on YOUR machine. No cloud. No subscriptions. No data leaving your device. Built for marketers, content creators, and coaches who take their business seriously.</p>
   <p class="proof">Built by John Crestani (Forbes, Entrepreneur, NBC) — 16 bundled tools, 35 quality gates per release.</p>
-  <form class="form" action="{{REFERRAL_URL}}" method="GET">
-    <input type="email" name="email" placeholder="Enter your best email" required>
-    <button type="submit" class="btn">Get Instant Access</button>
-  </form>
-  <p class="scarcity">21-day trial. No credit card. This offer won't last.</p>
+
+  <div class="anchor">
+    <p>Cloud AI subscriptions: <span class="compare">$2,400/year — every year, forever</span></p>
+    <p>Bonfire Terminal: <span class="price">$5,000 one-time</span> — pay once, own it forever.</p>
+    <p style="color:#259F70;margin-top:8px;font-weight:600">Pays for itself in 25 months. Then saves you $2,400/year for life.</p>
+  </div>
+
+  <div class="cta-box">
+    <a href="{{REFERRAL_URL}}" class="btn">Apply for Access</a>
+  </div>
+  <p class="scarcity">This is professional-grade software for serious operators. Not everyone qualifies.</p>
   <p class="trust">We respect your privacy — ironic, we know, coming from a company that exists because others don't.</p>
 </div>
 </body>

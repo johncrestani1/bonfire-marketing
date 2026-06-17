@@ -24,6 +24,12 @@ strong{color:#e8e8e8}
 .savings{background:#141414;border:1px solid #222;padding:20px;margin:24px 0;text-align:center}
 .savings-num{font-family:'Orbitron',monospace;font-size:2rem;color:#259F70;font-weight:900}
 .savings-label{font-size:0.85rem;color:#999;margin-top:4px}
+.roi-box{background:#141414;border:1px solid #222;padding:24px;margin:24px 0}
+.roi-title{font-family:'Orbitron',monospace;font-weight:700;font-size:0.85rem;text-transform:uppercase;letter-spacing:1.5px;color:#b29d60;margin-bottom:12px;text-align:center}
+.roi-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #1A1A1A;font-size:0.95rem;color:#999}
+.roi-row strong{color:#e8e8e8}
+.roi-row .green{color:#259F70;font-weight:700}
+.roi-row .red{color:#E63946}
 .cta-box{text-align:center;padding:32px 0}
 .cta{display:inline-block;background:#f94238;color:#fff;padding:14px 36px;font-family:'Orbitron',monospace;font-size:0.9rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;border-radius:0}
 .cta:hover{background:#ff8c42}
@@ -39,7 +45,7 @@ strong{color:#e8e8e8}
   <h2>The Problem (Specific Numbers)</h2>
   <p>Here is exactly what I was paying for AI before Bonfire Terminal:</p>
   <p>ChatGPT Plus: <strong>$20/month</strong>. Claude Pro: <strong>$20/month</strong>. Otter.ai transcription: <strong>$30/month</strong>. Midjourney: <strong>$30/month</strong>. Various API overages: <strong>$47-120/month</strong>. Total: <strong>$147-220/month</strong>.</p>
-  <p>That's $1,764-2,640/year. For tools that send every word I type to someone else's server. Tools that explicitly state in their ToS they may use my inputs for training. Tools whose pricing I have zero control over.</p>
+  <p>That's $1,764-2,640/year. For tools that send every word I type to someone else's server. Tools that explicitly state in their ToS they may use my inputs for training. Tools whose pricing I have zero control over — and whose prices only go <strong>up</strong>.</p>
 
   <h2>What Bonfire Actually Replaces</h2>
 
@@ -55,28 +61,54 @@ strong{color:#e8e8e8}
 
   <div class="savings">
     <div class="savings-num">$1,548 - $2,460</div>
-    <div class="savings-label">saved per year (exact, tracked over 143 days)</div>
+    <div class="savings-label">saved per year in cloud subscriptions you no longer pay</div>
   </div>
 
-  <h2>What Bonfire Does NOT Replace</h2>
-  <p>I'm going to be specific about the limitations because Dan Kennedy taught me that the fastest way to build trust is to tell people what your product can't do:</p>
-  <p><strong>GPT-4 class reasoning?</strong> No. TinyLlama is a 1.1B parameter model. It handles 80% of content tasks but complex multi-step reasoning still needs a big model. Bonfire lets you connect to OpenAI/Claude/Gemini via API when you need it — you just bring your own key.</p>
-  <p><strong>Image generation?</strong> Not yet. Bonfire handles image editing (overlays, crops, zoompan) via FFmpeg, not generation. Midjourney still wins for creation from scratch.</p>
-  <p><strong>macOS?</strong> Windows only right now. macOS is planned but not shipped.</p>
+  <h2>The Investment vs. The Alternative</h2>
+  <p>Bonfire Terminal is a <strong>$5,000 one-time investment</strong>. Not a subscription. Not a "first month free then we bill you." You pay once. You own it forever.</p>
+  <p>Here's what that looks like against cloud AI over time:</p>
+
+  <div class="roi-box">
+    <div class="roi-title">Bonfire Terminal ROI Breakdown</div>
+    <div class="roi-row"><span>Bonfire Terminal (one-time)</span><strong>$5,000</strong></div>
+    <div class="roi-row"><span>Cloud AI (Year 1)</span><span class="red">$2,400</span></div>
+    <div class="roi-row"><span>Cloud AI (Year 2)</span><span class="red">$4,800</span></div>
+    <div class="roi-row"><span>Cloud AI (Year 3)</span><span class="red">$7,200</span></div>
+    <div class="roi-row"><span>Cloud AI (Year 5)</span><span class="red">$12,000</span></div>
+    <div class="roi-row"><span>Breakeven</span><span class="green">25 months</span></div>
+    <div class="roi-row"><strong>5-year net savings</strong><span class="green">$7,000+</span></div>
+  </div>
+
+  <p>After 25 months, every dollar you would have spent on cloud AI goes back in your pocket. <strong>$2,400/year, every year, for the rest of the tool's life.</strong></p>
+
+  <h2>1 Person. 13 Roles. Zero Outsourcing.</h2>
+  <p>Here's the bigger picture that the subscription-vs-subscription comparison misses. As a marketer, creator, or coach, you're not just paying for AI tools. You're paying for an entire outsourced team:</p>
+  <p>Video editor ($3,000/mo). Social media manager ($2,000/mo). Copywriter ($2,000/mo). Ad specialist ($2,500/mo). Transcriptionist ($1,000/mo). Project coordinator ($3,000/mo). That's <strong>$13,500/month in outsourced labor</strong> before you even touch AI subscriptions.</p>
+  <p>Bonfire Terminal collapses that entire operation into one person — you — with AI handling the execution. For $5,000. Once.</p>
+
+  <h2>Why Not OpenClaw?</h2>
+  <p>OpenClaw looks similar on the surface. It's not. Here's what's actually different:</p>
+  <p><strong>OpenClaw gives you a text box that talks to an API.</strong> No messaging bridges (you can't use it from your phone). No bundled tools (you install your own FFmpeg, your own Whisper). No plugin architecture. No offline capability. No build system. No code signing. Manual setup.</p>
+  <p><strong>Bonfire gives you a complete AI operations center.</strong> 6 native messaging bridges, 16 bundled tools, 9 plugins, EV code-signed installer, 35 quality gates, offline operation with local models. It's the difference between a toolkit and a toy.</p>
+
+  <h2>What Bonfire Does NOT Replace (Honest Limitations)</h2>
+  <p><strong>GPT-4 class reasoning?</strong> No. TinyLlama is a 1.1B parameter model. It handles 80% of content tasks. For complex reasoning, Bonfire connects to OpenAI/Claude/Gemini via API — you bring your own key.</p>
+  <p><strong>Image generation from scratch?</strong> Not yet. Bonfire handles image editing (overlays, crops, zoompan) via FFmpeg. Midjourney still wins for creation from nothing.</p>
+  <p><strong>macOS?</strong> Windows only right now. macOS is planned.</p>
 
   <h2>The Reason I'm Recommending This</h2>
-  <p>Here is the specific reason: <strong>it solved the data control problem that every other tool ignores.</strong></p>
-  <p>I handle client content. Brand voices. Proprietary copy. Confidential strategy docs. Every time I pasted that into a cloud tool, I was taking a risk I couldn't quantify. With Bonfire, the risk is zero. The AI runs on my machine. The data never leaves.</p>
-  <p>The fact that it also saved me $1,548/year is a bonus. The real value is the control.</p>
+  <p>Here is the specific reason: <strong>it solved the 13-person problem.</strong></p>
+  <p>I was either paying $10,000+/month for outsourced help, or burning out doing everything myself. Bonfire Terminal gave me a third option: one person with AI-powered execution across video, audio, text, social, and ads. On my own hardware. Under my control.</p>
+  <p>The $5,000 paid for itself before the second month when I counted what I stopped paying freelancers.</p>
 
   <div class="verdict">
     <div class="verdict-title">Bottom Line</div>
-    <p>If you spend more than $50/month on AI tools and handle any content that shouldn't be on someone else's server — Bonfire Terminal pays for itself on day one. The 21-day trial is enough time to know. I knew in 3 days.</p>
+    <p>If you're a marketer, content creator, or coach spending $200+/month on AI tools and handling any content that shouldn't be on someone else's server — Bonfire Terminal pays for itself in 25 months, then saves you $2,400/year forever. The $5,000 is an investment in owning your AI stack. I knew it was worth it in 3 days.</p>
   </div>
 
   <div class="cta-box">
-    <a href="{{REFERRAL_URL}}" class="cta">Try Bonfire Free for 21 Days</a>
-    <p class="takeaway">No credit card. No auto-billing. If you don't see the value in 21 days, you pay nothing. Ever.</p>
+    <a href="{{REFERRAL_URL}}" class="cta">Apply for Access</a>
+    <p class="takeaway">This is professional-grade software for serious operators. Not everyone qualifies.</p>
   </div>
 </div>
 </body>

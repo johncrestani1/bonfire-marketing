@@ -16,6 +16,7 @@ h2{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transf
 .anchor{background:#141414;border-left:4px solid #f94238;padding:20px;margin:28px 0;font-size:1rem;color:#ccc}
 .anchor .price{font-family:'Orbitron',monospace;font-size:1.3rem;color:#f94238;font-weight:700}
 .anchor .compare{color:#666;text-decoration:line-through}
+.anchor .savings{color:#259F70;font-weight:600}
 .proof{margin:28px 0}
 .proof-item{display:flex;align-items:baseline;gap:12px;padding:8px 0;border-bottom:1px solid #1A1A1A}
 .proof-num{font-family:'Orbitron',monospace;color:#FF9000;font-weight:700;font-size:1.1rem;min-width:80px;text-align:right}
@@ -24,6 +25,12 @@ h2{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transf
 .stack-title{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transform:uppercase;letter-spacing:1.5px;color:#b29d60;margin-bottom:16px}
 .stack-item{padding:6px 0;color:#ccc;font-size:0.95rem}
 .stack-item::before{content:"+ ";color:#259F70;font-weight:700}
+.roi{background:#141414;border:1px solid #222;padding:20px;margin:28px 0;text-align:center}
+.roi-title{font-family:'Orbitron',monospace;font-weight:700;font-size:0.85rem;text-transform:uppercase;letter-spacing:1.5px;color:#b29d60;margin-bottom:12px}
+.roi-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #1A1A1A;color:#999;font-size:0.95rem}
+.roi-row strong{color:#e8e8e8}
+.roi-row .green{color:#259F70;font-weight:700}
+.roi-row .red{color:#E63946}
 .cta-box{text-align:center;padding:32px 0}
 .cta{display:inline-block;background:#f94238;color:#fff;padding:16px 44px;font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;text-decoration:none;border-radius:0}
 .cta:hover{background:#ff8c42}
@@ -35,15 +42,23 @@ h2{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transf
 <body>
 <div class="hero">
   <h1>Bonfire Terminal</h1>
-  <h2>Private AI Terminal by John Crestani</h2>
+  <h2>Private AI Terminal for Marketers, Creators & Coaches</h2>
 
-  <p class="problem">You're spending <strong>$200/month</strong> on AI subscriptions — ChatGPT Plus ($20), Claude Pro ($20), transcription services ($30), image tools ($50), various APIs ($80+). And every single prompt goes through someone else's server.</p>
+  <p class="problem">You're paying <strong>$10,000-37,000/month</strong> for an outsourced marketing team — video editors, social media managers, copywriters, ad specialists, project coordinators. Or you're doing it all yourself, burning out, and still paying <strong>$200/month</strong> in AI subscriptions that send your data to someone else's servers.</p>
 
-  <p class="problem">What if you could run all of that on your own machine? <strong>For the cost of electricity?</strong></p>
+  <p class="problem">Bonfire Terminal enables <strong>1 person to do what used to require a 13-person team</strong>. Video editing, transcription, content creation, ad copy, social media — all powered by local AI on your own hardware. Not a stripped-down wrapper like OpenClaw. A complete AI operations center.</p>
 
   <div class="anchor">
-    <p>Others charge: <span class="compare">$200/month × 12 = $2,400/year</span></p>
-    <p>Bonfire Terminal: <span class="price">$0 for 21 days</span> — then decide if local AI is worth it.</p>
+    <p>Cloud AI subscriptions: <span class="compare">$2,400/year — every year, forever</span></p>
+    <p>Bonfire Terminal: <span class="price">$5,000 one-time investment</span></p>
+    <p class="savings" style="margin-top:8px">Pays for itself in 25 months. Then saves you $2,400/year for life.</p>
+  </div>
+
+  <div class="roi">
+    <div class="roi-title">5-Year Cost Comparison</div>
+    <div class="roi-row"><span>Cloud AI (5 years)</span><span class="red">$12,000</span></div>
+    <div class="roi-row"><span>Bonfire Terminal (5 years)</span><span class="green">$5,000</span></div>
+    <div class="roi-row"><strong>Your net savings</strong><span class="green">$7,000+</span></div>
   </div>
 
   <div class="proof">
@@ -55,7 +70,7 @@ h2{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transf
   </div>
 
   <div class="stack">
-    <div class="stack-title">What You Get</div>
+    <div class="stack-title">What You Own</div>
     <div class="stack-item">Rust daemon — local AI orchestration engine</div>
     <div class="stack-item">Electron UI — 3-pane desktop app (Terminal, AlphaChat, Settings)</div>
     <div class="stack-item">Speech-to-text — Whisper running locally</div>
@@ -66,9 +81,9 @@ h2{font-family:'Orbitron',monospace;font-weight:700;font-size:0.9rem;text-transf
   </div>
 
   <div class="cta-box">
-    <a href="{{REFERRAL_URL}}" class="cta">Start Your 21-Day Free Trial</a>
-    <p class="scarcity">No credit card required. No auto-billing. No catch.</p>
-    <p class="sub">Windows 10+. 2GB download. Works on machines from 2013+.</p>
+    <a href="{{REFERRAL_URL}}" class="cta">Apply for Access</a>
+    <p class="scarcity">This isn't for hobbyists. Limited availability — not everyone qualifies.</p>
+    <p class="sub">Windows 10+. 2GB download. Professional-grade software for serious operators.</p>
   </div>
 </div>
 </body>

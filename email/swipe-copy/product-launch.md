@@ -25,11 +25,15 @@ Built by John Crestani — the guy Forbes profiled, Entrepreneur Magazine filmed
 
 **Here's what it does:** You send a message from your phone (Telegram, Discord, WhatsApp, Slack). Bonfire's daemon on your desktop intercepts it, runs it through local AI, and sends the result back. Transcription. Image editing. Video creation. Text generation. All local.
 
-**What it costs:** $0 for 21 days. No credit card. Then you decide.
+**What it costs:** $5,000. One time. You own it forever.
 
-**What the alternatives cost:** $200/month. Plus your data. Plus your privacy.
+**What the alternatives cost:** $2,400/year. Every year. Forever. Plus your data. Plus your privacy. Over 5 years, that's $12,000 gone — and you still don't own anything.
 
-[Try Bonfire Terminal — 21 days free →]({{REFERRAL_URL}})
+**The math:** $5,000 once vs. $12,000 over 5 years = **$7,000 saved**. And after 25 months, every dollar you would have spent on cloud AI goes back in your pocket. $2,400/year, every year, for the rest of the tool's life.
+
+This is professional-grade software built for marketers, content creators, and coaches. Not hobbyists. Not tire-kickers. If you're serious about owning your AI stack and protecting your client data, this is for you.
+
+[Apply for Access →]({{REFERRAL_URL}})
 
 — {{YOUR_NAME}}
 

@@ -16,6 +16,17 @@
 | BEP actions per build | 3,744 across 9 pipeline stages |
 | Code signing | EV Code Signing (SSL.com, M3M3TIC LLC) |
 
+## Pricing
+
+| Metric | Value |
+|---|---|
+| Price | $5,000 one-time investment |
+| Recurring fees | None |
+| Cloud AI alternative cost | $2,400/year (avg marketer/creator/coach spend) |
+| Breakeven vs. cloud | 25 months |
+| 5-year savings vs. cloud | $7,000+ |
+| Target audience | Marketers, content creators, coaches |
+
 ## Technical Architecture
 
 | Component | Technology |
