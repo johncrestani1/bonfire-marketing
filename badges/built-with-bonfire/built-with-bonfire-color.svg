@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="28" viewBox="0 0 190 28">
+  <rect width="85" height="28" fill="#555"/>
+  <rect x="85" width="105" height="28" fill="#FF9000"/>
+  <text x="43" y="19" font-family="Rajdhani,sans-serif" font-size="13" font-weight="600" fill="#fff" text-anchor="middle">BUILT WITH</text>
+  <text x="137" y="19" font-family="Orbitron,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1">BONFIRE</text>
+</svg>

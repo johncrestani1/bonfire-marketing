@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bonfire Terminal — Private AI on Your Machine</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d0d0d;color:#e8e8e8;font-family:'Rajdhani','Segoe UI',sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center}
+.container{max-width:520px;padding:40px 30px;text-align:center}
+h1{font-family:'Orbitron',monospace;font-weight:900;font-size:2.2rem;text-transform:uppercase;letter-spacing:3px;color:#f94238;margin-bottom:12px}
+.subtitle{font-size:1.1rem;color:#999;margin-bottom:30px;line-height:1.5}
+.highlight{color:#FF9000}
+.form{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+input[type="email"]{background:#1A1A1A;border:1px solid #333;color:#e8e8e8;padding:14px 16px;font-family:'Rajdhani',sans-serif;font-size:1rem;font-weight:500;border-radius:0;outline:none}
+input[type="email"]:focus{border-color:#f94238}
+input[type="email"]::placeholder{color:#666}
+.btn{background:#f94238;color:#fff;border:none;padding:14px;font-family:'Orbitron',monospace;font-size:0.9rem;font-weight:700;text-transform:uppercase;letter-spacing:2px;cursor:pointer;border-radius:0;transition:background 0.2s}
+.btn:hover{background:#ff8c42}
+.trust{font-size:0.8rem;color:#666;margin-top:16px}
+.trust a{color:#b29d60;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Bonfire Terminal</h1>
+  <p class="subtitle">Run AI <span class="highlight">locally on your machine</span>. No cloud. No API keys. No data leaving your device. Get early access.</p>
+  <form class="form" action="{{REFERRAL_URL}}" method="GET">
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <button type="submit" class="btn">Get Early Access</button>
+  </form>
+  <p class="trust">Your data stays on your machine. Always. <a href="https://bonfireterminal.com">Learn more</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="28" viewBox="0 0 200 28">
+  <rect width="95" height="28" fill="#e0e0e0"/>
+  <rect x="95" width="105" height="28" fill="#f94238"/>
+  <text x="48" y="19" font-family="Rajdhani,sans-serif" font-size="13" font-weight="600" fill="#333" text-anchor="middle">POWERED BY</text>
+  <text x="147" y="19" font-family="Orbitron,monospace" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1">BONFIRE</text>
+</svg>
