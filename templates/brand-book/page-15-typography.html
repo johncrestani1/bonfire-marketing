@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920">
+<title>Brand Book — Page 15: Typography — Orbitron</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+.page{width:1920px;height:1080px;background:#0d0d0d;display:flex;padding:80px 120px;position:relative}
+.left{width:40%;padding-right:60px;border-right:1px solid #1A1A1A}
+.right{width:60%;padding-left:60px}
+.section-label{font-family:'Rajdhani',sans-serif;font-weight:500;font-size:13px;color:#666;text-transform:uppercase;letter-spacing:2px;margin-bottom:24px}
+h1{font-family:'Orbitron',monospace;font-weight:900;font-size:36px;text-transform:uppercase;letter-spacing:4px;color:#FF9000;margin-bottom:16px}
+.font-name{font-family:'Orbitron',monospace;font-weight:700;font-size:72px;color:#e8e8e8;text-transform:uppercase;letter-spacing:4px;margin-bottom:8px}
+.font-meta{font-family:'Rajdhani',sans-serif;font-weight:400;font-size:15px;color:#666;margin-bottom:32px}
+.rule{font-family:'Rajdhani',sans-serif;font-weight:500;font-size:16px;color:#999;line-height:1.7;margin-bottom:16px}
+.rule strong{color:#f94238}
+.specimen{margin-bottom:28px}
+.specimen-label{font-family:'Rajdhani',sans-serif;font-weight:600;font-size:13px;color:#b29d60;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
+.weight-700{font-family:'Orbitron',monospace;font-weight:700;text-transform:uppercase;letter-spacing:3px;color:#e8e8e8}
+.weight-900{font-family:'Orbitron',monospace;font-weight:900;text-transform:uppercase;letter-spacing:4px;color:#e8e8e8}
+.size-display{font-size:48px;margin-bottom:4px}
+.size-h1{font-size:36px;margin-bottom:4px}
+.size-h2{font-size:24px;margin-bottom:4px}
+.size-h3{font-size:18px;margin-bottom:4px}
+.size-label{font-size:13px;color:#666;font-family:'Rajdhani',sans-serif;margin-bottom:16px}
+.css-box{background:#141414;padding:20px;font-family:'Cascadia Code','Consolas',monospace;font-size:13px;color:#999;line-height:1.8;margin-top:24px}
+.css-box .key{color:#00C2FF}
+.css-box .val{color:#ff8c42}
+.css-box .comment{color:#555}
+.page-num{position:absolute;bottom:40px;right:80px;font-family:'Rajdhani',sans-serif;font-size:13px;color:#555}
+.breadcrumb{position:absolute;bottom:40px;left:80px;font-family:'Rajdhani',sans-serif;font-size:12px;color:#444}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="left">
+    <div class="section-label">Identity System / Typography</div>
+    <h1>Headings</h1>
+    <div class="font-name">Orbitron</div>
+    <div class="font-meta">Variable font · Weights 400–900 · SIL Open Font License<br>Source: Google Fonts · Bundled in src/assets/fonts/</div>
+
+    <div class="rule"><strong>ALWAYS</strong> uppercase. Never sentence case.</div>
+    <div class="rule"><strong>ALWAYS</strong> letter-spacing 2–4px.</div>
+    <div class="rule"><strong>NEVER</strong> use for body text, form inputs, or long passages.</div>
+    <div class="rule"><strong>PRIMARY WEIGHTS:</strong> 700 (headings), 900 (impact/hero).</div>
+
+    <div class="css-box">
+      <span class="comment">/* CSS */</span><br>
+      <span class="key">font-family</span>: <span class="val">'Orbitron', monospace</span>;<br>
+      <span class="key">text-transform</span>: <span class="val">uppercase</span>;<br>
+      <span class="key">letter-spacing</span>: <span class="val">2px</span>;<br>
+      <span class="key">font-weight</span>: <span class="val">700</span>; <span class="comment">/* or 900 */</span><br><br>
+      <span class="comment">/* CSS Variable */</span><br>
+      <span class="key">--bf-font-heading</span>: <span class="val">'Orbitron', monospace</span>;
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="specimen">
+      <div class="specimen-label">Weight 900 · Display</div>
+      <div class="weight-900 size-display">BONFIRE TERMINAL</div>
+      <div class="size-label">48px / 900 / letter-spacing: 4px</div>
+    </div>
+
+    <div class="specimen">
+      <div class="specimen-label">Weight 700 · H1</div>
+      <div class="weight-700 size-h1">PRIVATE AI TERMINAL</div>
+      <div class="size-label">36px / 700 / letter-spacing: 3px</div>
+    </div>
+
+    <div class="specimen">
+      <div class="specimen-label">Weight 700 · H2</div>
+      <div class="weight-700 size-h2">THE GHOST AGENCY</div>
+      <div class="size-label">24px / 700 / letter-spacing: 2px</div>
+    </div>
+
+    <div class="specimen">
+      <div class="specimen-label">Weight 700 · H3</div>
+      <div class="weight-700 size-h3">BRIDGE ARCHITECTURE</div>
+      <div class="size-label">18px / 700 / letter-spacing: 2px</div>
+    </div>
+
+    <div class="specimen" style="margin-top:32px">
+      <div class="specimen-label">Full Character Set</div>
+      <div class="weight-700" style="font-size:20px;letter-spacing:2px;line-height:1.6;color:#999">
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+        abcdefghijklmnopqrstuvwxyz<br>
+        0123456789 !@#$%^&*()
+      </div>
+    </div>
+
+    <div class="specimen" style="margin-top:24px">
+      <div class="specimen-label">Color in Headings</div>
+      <div class="weight-900" style="font-size:32px;letter-spacing:3px">
+        <span style="color:#f94238">BONFIRE</span> <span style="color:#e8e8e8">TERMINAL</span>
+      </div>
+      <div class="weight-700" style="font-size:20px;letter-spacing:2px;margin-top:8px">
+        <span style="color:#FF9000">AI THAT STAYS</span> <span style="color:#999">ON YOUR MACHINE</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="breadcrumb">Identity System / Typography</div>
+  <div class="page-num">15</div>
+</div>
+</body>
+</html>

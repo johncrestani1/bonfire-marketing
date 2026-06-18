@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920">
+<title>Brand Book — Page 12: Core Color Palette</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+.page{width:1920px;height:1080px;background:#0d0d0d;padding:80px 120px;position:relative}
+.section-label{font-family:'Rajdhani',sans-serif;font-weight:500;font-size:13px;color:#666;text-transform:uppercase;letter-spacing:2px;margin-bottom:24px}
+h1{font-family:'Orbitron',monospace;font-weight:900;font-size:36px;text-transform:uppercase;letter-spacing:4px;color:#FF9000;margin-bottom:48px}
+.palette{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:40px}
+.swatch{display:flex;flex-direction:column}
+.swatch-color{height:160px;display:flex;align-items:flex-end;padding:16px}
+.swatch-info{background:#141414;padding:16px}
+.swatch-name{font-family:'Orbitron',monospace;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#e8e8e8;margin-bottom:6px}
+.swatch-hex{font-family:'Cascadia Code','Consolas',monospace;font-size:14px;color:#999;margin-bottom:4px}
+.swatch-rgb{font-family:'Rajdhani',sans-serif;font-size:13px;color:#666}
+.swatch-var{font-family:'Cascadia Code','Consolas',monospace;font-size:12px;color:#555;margin-top:4px}
+.gradient-bar{height:80px;background:linear-gradient(90deg,#f94238,#ff8c42,#ffcc02);margin-top:32px;position:relative}
+.gradient-label{position:absolute;bottom:-28px;font-family:'Orbitron',monospace;font-size:12px;text-transform:uppercase;letter-spacing:1px}
+.gradient-label.l{left:0;color:#f94238}
+.gradient-label.m{left:50%;transform:translateX(-50%);color:#ff8c42}
+.gradient-label.r{right:0;color:#ffcc02}
+.gradient-title{font-family:'Orbitron',monospace;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:2px;color:#b29d60;margin-top:16px;margin-bottom:8px}
+.page-num{position:absolute;bottom:40px;right:80px;font-family:'Rajdhani',sans-serif;font-size:13px;color:#555}
+.breadcrumb{position:absolute;bottom:40px;left:80px;font-family:'Rajdhani',sans-serif;font-size:12px;color:#444}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="section-label">Identity System / Color</div>
+  <h1>Core Palette</h1>
+
+  <div class="palette">
+    <div class="swatch">
+      <div class="swatch-color" style="background:#f94238"><span style="color:#fff;font-family:'Orbitron',monospace;font-size:11px;letter-spacing:1px">PRIMARY</span></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Bonfire Red</div>
+        <div class="swatch-hex">#f94238</div>
+        <div class="swatch-rgb">RGB 249, 66, 56</div>
+        <div class="swatch-var">--bonfire-red</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#FF9000"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Bonfire Orange</div>
+        <div class="swatch-hex">#FF9000</div>
+        <div class="swatch-rgb">RGB 255, 144, 0</div>
+        <div class="swatch-var">--bonfire-orange</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#b29d60"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Crestani Gold</div>
+        <div class="swatch-hex">#b29d60</div>
+        <div class="swatch-rgb">RGB 178, 157, 96</div>
+        <div class="swatch-var">--crestani-gold</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#00C2FF"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Cerulean Blue</div>
+        <div class="swatch-hex">#00C2FF</div>
+        <div class="swatch-rgb">RGB 0, 194, 255</div>
+        <div class="swatch-var">--bf-blue</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#0A5C63"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Secretary Teal</div>
+        <div class="swatch-hex">#0A5C63</div>
+        <div class="swatch-rgb">RGB 10, 92, 99</div>
+        <div class="swatch-var">--bf-green</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background:#ff8c42"></div>
+      <div class="swatch-info">
+        <div class="swatch-name">Ember Orange</div>
+        <div class="swatch-hex">#ff8c42</div>
+        <div class="swatch-rgb">RGB 255, 140, 66</div>
+        <div class="swatch-var">(inline accent)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gradient-title">The Bonfire Fire Gradient</div>
+  <div class="gradient-bar">
+    <div class="gradient-label l">Smolder #f94238</div>
+    <div class="gradient-label m">Burn #ff8c42</div>
+    <div class="gradient-label r">Blaze #ffcc02</div>
+  </div>
+
+  <div class="breadcrumb">Identity System / Color</div>
+  <div class="page-num">12</div>
+</div>
+</body>
+</html>
