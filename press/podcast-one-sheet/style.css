@@ -1,0 +1,244 @@
+/* Podcast One-Sheet — John Crestani / M3M3TIC LLC */
+/* Single page, letter size. Render: Edge headless or WeasyPrint */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@page { size: letter; margin: 0; }
+@media print { body { margin: 0; } }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --orange: #FF9000;
+  --red: #f94238;
+  --gold: #b29d60;
+  --dark: #0d0d0d;
+  --text-dk: #1a1a1a;
+  --text-md: #444444;
+  --border: #e0e0e0;
+}
+
+body {
+  font-family: 'Rajdhani', 'Segoe UI', system-ui, sans-serif;
+  font-size: 9.5pt;
+  color: var(--text-dk);
+  line-height: 1.4;
+  background: #fff;
+  width: 8.5in;
+  height: 11in;
+  overflow: hidden;
+}
+
+/* Fire stripe */
+.top-stripe {
+  height: 3px;
+  background: linear-gradient(90deg, #f94238, #ff8c42, #ffcc02);
+}
+
+/* Header */
+.header {
+  background: var(--dark);
+  color: #fff;
+  padding: 14px 28px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header-name {
+  font-family: 'Orbitron', monospace;
+  font-weight: 900;
+  font-size: 26pt;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.header-tagline {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 300;
+  font-size: 8.5pt;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-top: 4px;
+}
+.header-right {
+  text-align: right;
+  font-size: 8pt;
+  color: #999;
+}
+.header-right .company {
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  font-size: 8pt;
+  letter-spacing: 1.5px;
+  color: var(--gold);
+}
+
+/* Layout */
+.main { display: flex; }
+
+.sidebar {
+  width: 180px;
+  min-width: 180px;
+  background: #f8f8f8;
+  padding: 14px 14px;
+  border-right: 1px solid var(--border);
+}
+.content {
+  flex: 1;
+  padding: 14px 22px;
+}
+
+/* Headshot */
+.headshot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Book cover */
+.book-thumb {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-bottom: 6px;
+  border: 1px solid var(--border);
+}
+.book-meta {
+  font-size: 7.5pt;
+  color: #888;
+  margin-bottom: 0;
+}
+
+/* Sidebar labels */
+.sidebar-label {
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  font-size: 6.5pt;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 4px;
+  margin-top: 10px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid var(--orange);
+}
+.sidebar-label:first-of-type { margin-top: 0; }
+
+.sidebar-text {
+  font-size: 8.5pt;
+  color: var(--text-md);
+  line-height: 1.35;
+  margin-bottom: 1px;
+}
+.sidebar-text a { color: var(--text-md); text-decoration: none; }
+
+/* Fun fact box */
+.fun-fact-box {
+  background: var(--dark);
+  color: #e8e8e8;
+  padding: 8px 10px;
+  margin-top: 10px;
+  font-size: 8pt;
+  line-height: 1.35;
+}
+.fun-fact-box .sidebar-label {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+  margin-top: 0;
+}
+
+/* Section labels */
+.section-label {
+  font-family: 'Orbitron', monospace;
+  font-weight: 700;
+  font-size: 6.5pt;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--orange);
+  display: inline-block;
+  padding: 2px 8px 1px;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+.section-label:first-child { margin-top: 0; }
+
+/* Mission */
+.mission {
+  font-weight: 600;
+  font-size: 9.5pt;
+  color: var(--text-dk);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+.mission strong { color: var(--orange); font-weight: 700; }
+
+/* Bio */
+.bio {
+  font-size: 9pt;
+  color: var(--text-md);
+  line-height: 1.45;
+  margin-bottom: 4px;
+}
+
+/* Introduction */
+.intro-text {
+  font-size: 9pt;
+  color: var(--text-md);
+  line-height: 1.45;
+  font-style: italic;
+}
+
+/* Topics */
+.topic-list { list-style: none; }
+.topic-list li {
+  font-size: 9pt;
+  color: var(--text-dk);
+  padding: 2px 0 2px 12px;
+  position: relative;
+  line-height: 1.35;
+}
+.topic-list li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 7px;
+  width: 5px; height: 5px;
+  background: var(--orange);
+}
+
+/* Questions */
+.question-list { list-style: none; }
+.question-list li {
+  font-size: 8.5pt;
+  color: var(--text-md);
+  padding: 1.5px 0 1.5px 12px;
+  position: relative;
+  line-height: 1.35;
+}
+.question-list li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 7px;
+  width: 4px; height: 4px;
+  background: var(--gold);
+}
+
+/* Footer */
+.footer {
+  background: var(--dark);
+  color: #666;
+  padding: 6px 28px;
+  font-size: 7pt;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer a { color: var(--orange); text-decoration: none; }
