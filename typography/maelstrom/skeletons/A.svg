@@ -11,18 +11,19 @@
   <line x1="90" y1="0" x2="90" y2="100" stroke="#333" stroke-width="0.3"/>
 
   <!-- Glyph path -->
-  <path d="M 0.0 100.0 L 35.0 0.0 L 55.0 0.0 L 90.0 100.0 L 60.0 100.0 L 52.0 70.0 L 38.0 70.0 L 30.0 100.0 Z M 42.0 58.0 L 48.0 58.0 L 45.0 50.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+  <path d="M 0.0 100.0 L 41.0 0.0 L 49.0 0.0 L 90.0 100.0 Z M 44.0 18.0 L 46.0 18.0 L 50.0 50.0 L 46.0 70.0 L 60.0 100.0 L 30.0 100.0 L 44.0 70.0 L 40.0 50.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
 
   <!-- Point markers -->
   <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
-  <circle cx="35.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
-  <circle cx="55.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="41.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="49.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
   <circle cx="90.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
-  <circle cx="60.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
-  <circle cx="52.0" cy="70.0" r="1.2" fill="#f94238" opacity="0.7"/>
-  <circle cx="38.0" cy="70.0" r="1.2" fill="#f94238" opacity="0.7"/>
-  <circle cx="30.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
-  <circle cx="42.0" cy="58.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
-  <circle cx="48.0" cy="58.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
-  <circle cx="45.0" cy="50.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="44.0" cy="18.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="46.0" cy="18.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="50.0" cy="50.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="46.0" cy="70.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="60.0" cy="100.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="30.0" cy="100.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="44.0" cy="70.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="40.0" cy="50.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
 </svg>

@@ -1,5 +1,5 @@
 """
-MAELSTROM ALPHABET v6.8 — BRUSH-WEIGHT MASTER VECTORS
+MAELSTROM ALPHABET v6.9 — REF-FAITHFUL MASTER VECTORS
 Coordinate system: 0-100 viewport (normalized)
   Origin (0,0) at bottom-left, Y points UP
   Cap height H = 100, baseline = 0
@@ -33,8 +33,8 @@ GLYPHS = {}
 # ================================================================
 
 # --- M ---  [TRACED from MAELSTROM reference]
-# v6.8: SW=28. Horns 28u wide. Shallow V-notch at y=88 (4u floor).
-# Solid midsection y=88→55. Leg separation gap y=55→0 (triangular void).
+# v6.9: V-notch raised to y=91 (ref V-floor). Leg gap LEFT-OF-CENTER
+# at x≈0.32 (ref asymmetric). Gap narrower: 8u top → 18u bottom.
 # Three-gap system: V-notch / solid mid / leg separation.
 GLYPHS['M'] = {
     'width': 90,
@@ -42,38 +42,47 @@ GLYPHS['M'] = {
         (0, 0),            # left foot outer-left
         (0, H),            # top-left horn outer
         (SW, H),           # left horn inner-top → V wall starts
-        (43, 88),          # V-floor left (shallow notch)
-        (47, 88),          # V-floor right (4u floor)
+        (43, 91),          # V-floor left (ref V-floor at y=91)
+        (47, 91),          # V-floor right (4u floor)
         (90 - SW, H),      # right horn inner-top
         (90, H),           # top-right horn outer
         (90, 0),           # right foot outer-right
     ],
     'holes': [
-        # Leg separation: triangular gap between the two feet
-        # Converges at y=55 (top of separation), widens to baseline
-        [(40, 55), (50, 55), (90 - SW, 0), (SW, 0)],
+        # Leg separation: LEFT-OF-CENTER per ref (pos=0.32)
+        # Ref gap: cols 40-75 of 182px span → x≈19-37 in font coords
+        # Top (y=55): 8u wide centered at x≈28
+        # Bottom (y=0): 18u wide centered at x≈28
+        [(24, 55), (32, 55), (37, 0), (19, 0)],
     ],
 }
 
 # --- A ---  [TRACED from MAELSTROM reference]
-# v6.8: Tightened base gap from 54u to 30u. Tiny counter (6u×8u).
-# Solid triangle form — thick brush-stroke legs, massive crossbar zone.
-# Crossbar at y=30. Ink density target ~65% (ref=67%).
+# v6.9: Apex narrowed to 8u (ref is pointed at 6.3% of width).
+# Single continuous counter from near-apex to base with crossbar pinch
+# at y=30 (ref pinch = ~1px, we use 2u). Ref counter spans 99.2% of height.
 a_w = 90
 GLYPHS['A'] = {
     'width': a_w,
     'outer': [
         (0, 0),            # bottom-left
-        (35, H),           # flat top left
-        (55, H),           # flat top right (20u flat apex)
+        (41, H),           # apex left (8u flat top)
+        (49, H),           # apex right
         (a_w, 0),          # bottom-right
-        (60, 0),           # inner-right at base (tight gap)
-        (52, 30),          # inner-right at crossbar
-        (38, 30),          # inner-left at crossbar
-        (30, 0),           # inner-left at base (tight gap)
     ],
     'holes': [
-        [(42, 42), (48, 42), (45, 50)],  # tiny counter nick above crossbar
+        # Single continuous counter (hourglass shape with crossbar pinch)
+        # Top: 2u near apex → widens → pinches to 2u at crossbar → widens to base
+        [
+            (44, 82),      # counter top left (near apex)
+            (46, 82),      # counter top right
+            (50, 50),      # above crossbar, widening right
+            (46, 30),      # crossbar pinch right (2u gap)
+            (60, 0),       # base right
+            (30, 0),       # base left
+            (44, 30),      # crossbar pinch left
+            (40, 50),      # above crossbar, widening left
+        ],
     ],
 }
 
@@ -147,15 +156,24 @@ GLYPHS['T'] = {
 }
 
 # --- R ---  [TRACED from MAELSTROM reference]
-# v6.8: SW=28, stroke-based. At SW=28: stem 0-28, bowl wall thick,
-# counter ~3u (tiny carved notch). Leg 28u wide. Very solid.
+# v6.9: Converted to polygon for precise counter control.
+# Ref counter = 19% of bowl outer width. Leg-stem gap = 4-5px per ref.
+# Bowl counter: 17u × 20u rectangular void. Leg-stem gap: 5u triangular void.
 r_w = 60
 GLYPHS['R'] = {
     'width': r_w,
-    'center_strokes': [
-        [(SW/2, 0), (SW/2, H)],                                      # spine
-        [(SW/2, H), (45, H), (45, H/2), (SW/2, H/2)],               # bowl
-        [(SW/2, H/2), (43, 0)],                                      # steep leg (3:2)
+    'outer': [
+        (0, 0),            # stem base left
+        (0, H),            # stem top left
+        (r_w, H),          # bowl top right
+        (r_w, H/2),        # bowl bottom right / leg junction
+        (43, 0),           # leg bottom right (3:2 rise:run)
+    ],
+    'holes': [
+        # Bowl counter (rectangular, 17u × 20u)
+        [(SW, H/2 + 15), (r_w - 15, H/2 + 15), (r_w - 15, H - 15), (SW, H - 15)],
+        # Leg-stem separation (5u gap at junction, tapers toward baseline)
+        [(SW, H/2 - 5), (SW + 5, H/2 - 5), (SW, 5)],
     ],
 }
 
@@ -177,14 +195,26 @@ GLYPHS['O'] = {
 }
 
 # --- B ---  [TRACED from Armanen Bar rune chart]
-# v6.8: Width 55 → 65. SW=28 expands chevrons to ~x=64.
-# Spine 28u. Chunky chevron zigzag.
-b_w = 65
+# v6.9: Converted to polygon. Phase-corrected chevron positions per ref.
+# Ref: upper tip y=48, lower tip y=3, waist y=28. Tips extend to x=70.
+# Two triangular counters at concave vertices (12u depth).
+b_w = 72
 GLYPHS['B'] = {
     'width': b_w,
-    'center_strokes': [
-        [(SW/2, 0), (SW/2, H)],                                              # spine
-        [(SW/2, H), (50, 75), (SW/2, 50), (50, 25), (SW/2, 0)],             # chevron zigzag
+    'outer': [
+        (0, 0),            # bottom-left
+        (0, H),            # top-left
+        (SW, H),           # spine inner top
+        (70, 48),          # upper chevron tip
+        (SW, 28),          # waist (concave vertex)
+        (70, 3),           # lower chevron tip
+        (SW, 0),           # spine inner bottom
+    ],
+    'holes': [
+        # Upper counter (triangular void at concave vertex)
+        [(SW + 1, 76), (SW + 12, 48), (SW + 1, 36)],
+        # Lower counter (triangular void at concave vertex)
+        [(SW + 1, 22), (SW + 12, 3), (SW + 1, 1)],
     ],
 }
 
