@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 48 110">
+  <!-- J — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="38" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="38" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="38" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="38" y1="0" x2="38" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 72.0 L 0.0 100.0 L 38.0 100.0 L 38.0 0.0 L 10.0 0.0 L 10.0 72.0 L 28.0 72.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="10.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="10.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg>

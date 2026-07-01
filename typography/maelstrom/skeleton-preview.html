@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>MAELSTROM v6 — Skeleton Preview</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0a0a0a; color: #e0e0e0; font-family: monospace; padding: 15px; }
+h1 { color: #f94238; font-size: 16px; letter-spacing: 4px; text-align: center; margin: 10px 0; }
+h2 { color: #b29d60; font-size: 11px; letter-spacing: 3px; margin: 15px 0 6px; }
+.refs { display: flex; gap: 10px; justify-content: center; margin: 10px 0; flex-wrap: wrap; }
+.refs img { max-height: 120px; border: 1px solid #333; }
+.grid { display: grid; grid-template-columns: repeat(9, 1fr); gap: 4px; max-width: 1100px; margin: 10px auto; }
+.cell { background: #111; border: 1px solid #1a1a1a; padding: 6px; text-align: center; }
+.cell .lbl { color: #555; font-size: 8px; letter-spacing: 1px; margin-bottom: 4px; }
+.cell .method { color: #333; font-size: 6px; margin-top: 3px; line-height: 1.2; }
+.cell svg { max-width: 80px; max-height: 100px; }
+.cell.ref { border-color: #f94238; }
+.cell.ref svg { fill: #e8e0d4; }
+.cell.ref .lbl { color: #f94238; }
+.cell.ext svg { fill: #b29d60; }
+.cell.ext .lbl { color: #b29d60; }
+.notes { max-width: 800px; margin: 15px auto; padding: 12px; background: #111; border: 1px solid #1a1a1a; font-size: 10px; color: #555; line-height: 1.7; }
+.notes strong { color: #b29d60; }
+.notes em { color: #f94238; font-style: normal; }
+</style>
+</head>
+<body>
+
+<h1>MAELSTROM ALPHABET v6 — SKELETON PREVIEW</h1>
+
+<h2>REFERENCE IMAGES</h2>
+<div class="refs">
+    <img src="refs/maelstrom-font-reference-sot.JPG" alt="Maelstrom Reference">
+    <img src="refs/Armanen_Runes.JPG" alt="Armanen Runes">
+    <img src="refs/S-like-sideways-z-bonfire.JPG" alt="S Reference">
+</div>
+
+<h2>TRACED GLYPHS (M A E L S T R O B I) — <em>RED BORDER</em></h2>
+<div class="grid">
+<div class="cell ref"><div class="lbl">M</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 110">
+  <!-- M — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="90" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="90" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="90" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="90" y1="0" x2="90" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 28.0 0.0 L 43.0 12.0 L 47.0 12.0 L 62.0 0.0 L 90.0 0.0 L 90.0 100.0 Z M 40.0 45.0 L 50.0 45.0 L 62.0 100.0 L 28.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="43.0" cy="12.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="47.0" cy="12.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="62.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="90.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="90.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="40.0" cy="45.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="50.0" cy="45.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="62.0" cy="100.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="28.0" cy="100.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+</svg><div class="method">traced: MAELSTROM ref</div></div>
+<div class="cell ref"><div class="lbl">A</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 110">
+  <!-- A — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="90" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="90" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="90" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="90" y1="0" x2="90" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 35.0 0.0 L 55.0 0.0 L 90.0 100.0 L 60.0 100.0 L 52.0 70.0 L 38.0 70.0 L 30.0 100.0 Z M 42.0 58.0 L 48.0 58.0 L 45.0 50.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="35.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="55.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="90.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="60.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="52.0" cy="70.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="70.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="30.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="42.0" cy="58.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="48.0" cy="58.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="45.0" cy="50.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+</svg><div class="method">traced: MAELSTROM ref (flat-top)</div></div>
+<div class="cell ref"><div class="lbl">E</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 72 110">
+  <!-- E — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="62" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="62" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="62" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="62" y1="0" x2="62" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 38.0 0.0 L 38.0 28.0 L 28.0 28.0 L 28.0 36.0 L 46.0 36.0 L 46.0 64.0 L 28.0 64.0 L 28.0 72.0 L 62.0 72.0 L 62.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="46.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="46.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="62.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="62.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">traced: MAELSTROM ref</div></div>
+<div class="cell ref"><div class="lbl">L</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 52 110">
+  <!-- L — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="42" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="42" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="42" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="42" y1="0" x2="42" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 28.0 0.0 L 28.0 72.0 L 42.0 72.0 L 42.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="42.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="42.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">traced: MAELSTROM ref</div></div>
+<div class="cell ref"><div class="lbl">S</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-19.0 -19.0 85.0 138.0">
+  <!-- S — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="47" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="47" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="47" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="47" y1="0" x2="47" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <path d="M 33.0 14.0 L 14.0 50.0 L 33.0 50.0 L 14.0 86.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <!-- Center-line markers -->
+  <circle cx="33.0" cy="14.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="33.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="86.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">traced: Sig rune + ref</div></div>
+<div class="cell ref"><div class="lbl">T</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 92 110">
+  <!-- T — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="82" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="82" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="82" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="82" y1="0" x2="82" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 0.0 L 82.0 0.0 L 82.0 28.0 L 55.0 28.0 L 55.0 100.0 L 27.0 100.0 L 27.0 28.0 L 0.0 28.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="82.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="82.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="55.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="55.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="27.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="27.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">traced: MAELSTROM ref</div></div>
+<div class="cell ref"><div class="lbl">R</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-19.0 -19.0 98.0 138.0">
+  <!-- R — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="60" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="60" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="60" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="60" y1="0" x2="60" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <path d="M 14.0 100.0 L 14.0 0.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <path d="M 14.0 0.0 L 45.0 0.0 L 45.0 50.0 L 14.0 50.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <path d="M 14.0 50.0 L 43.0 100.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <!-- Center-line markers -->
+  <circle cx="14.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="45.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="45.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="43.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">traced: MAELSTROM ref (stroke)</div></div>
+<div class="cell ref"><div class="lbl">O</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 78 110">
+  <!-- O — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="68" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="68" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="68" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="68" y1="0" x2="68" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 68.0 0.0 L 68.0 100.0 Z M 28.0 72.0 L 28.0 28.0 L 40.0 28.0 L 40.0 72.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="68.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="68.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="40.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="40.0" cy="72.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+</svg><div class="method">traced: MAELSTROM ref</div></div>
+<div class="cell ref"><div class="lbl">B</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-19.0 -19.0 103.0 138.0">
+  <!-- B — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="65" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="65" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="65" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="65" y1="0" x2="65" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <path d="M 14.0 100.0 L 14.0 0.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <path d="M 14.0 0.0 L 50.0 25.0 L 14.0 50.0 L 50.0 75.0 L 14.0 100.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <!-- Center-line markers -->
+  <circle cx="14.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="50.0" cy="25.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="50.0" cy="75.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">traced: Armanen Bar rune</div></div>
+<div class="cell ref"><div class="lbl">I</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 38 110">
+  <!-- I — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="28" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="28" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="28" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="28" y1="0" x2="28" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 28.0 0.0 L 28.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">traced: Armanen Is rune</div></div>
+</div>
+
+<h2>EXTRAPOLATED GLYPHS — <span style="color:#b29d60;">GOLD</span></h2>
+<div class="grid">
+<div class="cell ext"><div class="lbl">C</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 58 110">
+  <!-- C — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="48" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="48" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="48" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="48" y1="0" x2="48" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 48.0 0.0 L 48.0 28.0 L 28.0 28.0 L 28.0 72.0 L 48.0 72.0 L 48.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: O minus right wall</div></div>
+<div class="cell ext"><div class="lbl">D</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 78 110">
+  <!-- D — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="68" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="68" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="68" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="68" y1="0" x2="68" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 68.0 0.0 L 68.0 100.0 Z M 28.0 72.0 L 28.0 28.0 L 40.0 28.0 L 40.0 72.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="68.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="68.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="40.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="40.0" cy="72.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+</svg><div class="method">extrap: identical to O</div></div>
+<div class="cell ext"><div class="lbl">F</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 56 110">
+  <!-- F — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="46" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="46" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="46" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="46" y1="0" x2="46" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 38.0 0.0 L 38.0 28.0 L 28.0 28.0 L 28.0 36.0 L 46.0 36.0 L 46.0 64.0 L 28.0 64.0 L 28.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="46.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="46.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: E minus bottom arm</div></div>
+<div class="cell ext"><div class="lbl">G</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 66 110">
+  <!-- G — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="56" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="56" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="56" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="56" y1="0" x2="56" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 56.0 0.0 L 56.0 28.0 L 28.0 28.0 L 28.0 72.0 L 56.0 72.0 L 56.0 64.0 L 40.0 64.0 L 40.0 36.0 L 56.0 36.0 L 56.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="56.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="56.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="56.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="56.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="40.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="40.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="56.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="56.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: C + right spur</div></div>
+<div class="cell ext"><div class="lbl">H</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 72 110">
+  <!-- H — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="62" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="62" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="62" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="62" y1="0" x2="62" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 28.0 0.0 L 28.0 36.0 L 34.0 36.0 L 34.0 0.0 L 62.0 0.0 L 62.0 100.0 L 34.0 100.0 L 34.0 64.0 L 28.0 64.0 L 28.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="34.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="34.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="62.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="62.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="34.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="34.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: two stems + crossbar</div></div>
+<div class="cell ext"><div class="lbl">J</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 48 110">
+  <!-- J — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="38" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="38" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="38" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="38" y1="0" x2="38" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 72.0 L 0.0 100.0 L 38.0 100.0 L 38.0 0.0 L 10.0 0.0 L 10.0 72.0 L 28.0 72.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="10.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="10.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: reversed L + hook</div></div>
+<div class="cell ext"><div class="lbl">K</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 70 110">
+  <!-- K — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="60" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="60" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="60" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="60" y1="0" x2="60" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 28.0 0.0 L 28.0 22.0 L 32.0 0.0 L 60.0 0.0 L 56.0 36.0 L 60.0 100.0 L 32.0 100.0 L 28.0 78.0 L 28.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="22.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="32.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="60.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="56.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="60.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="32.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="78.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: stem + two diagonals</div></div>
+<div class="cell ext"><div class="lbl">N</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 68 110">
+  <!-- N — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="58" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="58" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="58" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="58" y1="0" x2="58" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 28.0 0.0 L 58.0 72.0 L 58.0 100.0 L 30.0 100.0 L 0.0 28.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="58.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="58.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="30.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: two stems + diagonal</div></div>
+<div class="cell ext"><div class="lbl">P</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 75 110">
+  <!-- P — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="65" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="65" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="65" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="65" y1="0" x2="65" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 65.0 0.0 L 65.0 50.0 L 28.0 50.0 L 28.0 100.0 Z M 28.0 28.0 L 37.0 28.0 L 37.0 22.0 L 28.0 22.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="65.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="65.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="37.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="37.0" cy="22.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="28.0" cy="22.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+</svg><div class="method">extrap: R minus leg</div></div>
+<div class="cell ext"><div class="lbl">Q</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 78 110">
+  <!-- Q — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="68" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="68" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="68" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="68" y1="0" x2="68" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 68.0 0.0 L 68.0 100.0 Z M 28.0 72.0 L 28.0 28.0 L 40.0 28.0 L 40.0 72.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="68.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="68.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="28.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="40.0" cy="28.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+  <circle cx="40.0" cy="72.0" r="1.0" fill="#4a9ef9" opacity="0.7"/>
+</svg><div class="method">extrap: O (tail deferred)</div></div>
+<div class="cell ext"><div class="lbl">U</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 72 110">
+  <!-- U — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="62" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="62" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="62" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="62" y1="0" x2="62" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 0.0 0.0 L 28.0 0.0 L 28.0 72.0 L 34.0 72.0 L 34.0 0.0 L 62.0 0.0 L 62.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="34.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="34.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="62.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="62.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: inverted C shape</div></div>
+<div class="cell ext"><div class="lbl">V</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 74 110">
+  <!-- V — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="64" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="64" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="64" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="64" y1="0" x2="64" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 0.0 L 32.0 100.0 L 64.0 0.0 L 36.0 0.0 L 32.0 30.0 L 28.0 0.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="32.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="64.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="36.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="32.0" cy="30.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: inverted A, no bar</div></div>
+<div class="cell ext"><div class="lbl">W</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 92 110">
+  <!-- W — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="82" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="82" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="82" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="82" y1="0" x2="82" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 0.0 L 20.5 100.0 L 41.0 40.0 L 61.5 100.0 L 82.0 0.0 L 68.0 0.0 L 61.5 44.0 L 41.0 68.0 L 20.5 44.0 L 14.0 0.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="20.5" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="41.0" cy="40.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="61.5" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="82.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="68.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="61.5" cy="44.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="41.0" cy="68.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="20.5" cy="44.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: double-V (M inverted)</div></div>
+<div class="cell ext"><div class="lbl">X</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 76 110">
+  <!-- X — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="66" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="66" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="66" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="66" y1="0" x2="66" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 100.0 L 19.0 64.0 L 0.0 0.0 L 28.0 0.0 L 33.0 36.0 L 38.0 0.0 L 66.0 0.0 L 47.0 36.0 L 66.0 100.0 L 38.0 100.0 L 33.0 64.0 L 28.0 100.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="19.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="33.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="66.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="47.0" cy="36.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="66.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="38.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="33.0" cy="64.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: two crossing diags</div></div>
+<div class="cell ext"><div class="lbl">Y</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 70 110">
+  <!-- Y — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="60" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="60" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="60" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="60" y1="0" x2="60" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 0.0 L 16.0 50.0 L 16.0 100.0 L 44.0 100.0 L 44.0 50.0 L 60.0 0.0 L 32.0 0.0 L 44.0 22.0 L 16.0 22.0 L 28.0 0.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="16.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="16.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="44.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="44.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="60.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="32.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="44.0" cy="22.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="16.0" cy="22.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: upper V + stem</div></div>
+<div class="cell ext"><div class="lbl">Z</div><svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 58 110">
+  <!-- Z — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="48" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="48" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="48" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="48" y1="0" x2="48" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <!-- Glyph path -->
+  <path d="M 0.0 0.0 L 48.0 0.0 L 48.0 28.0 L 28.0 72.0 L 48.0 72.0 L 48.0 100.0 L 0.0 100.0 L 0.0 72.0 L 20.0 28.0 L 0.0 28.0 Z" fill="#e8e0d4" fill-rule="evenodd" stroke="none"/>
+
+  <!-- Point markers -->
+  <circle cx="0.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="28.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="48.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="72.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="20.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="0.0" cy="28.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg><div class="method">extrap: S rotated (regular Z)</div></div>
+</div>
+
+<div class="notes">
+    <strong>V6 PIPELINE:</strong> SVG skeleton masters (canonical source) → Graphite refinement → FontForge export (last step)<br>
+    <em>Red border</em> = traced from reference (MAELSTROM + Armanen runes B,I) |
+    <span style="color:#b29d60;">Gold</span> = extrapolated using strict geometric rules<br><br>
+    <strong>DESIGN RULES:</strong> All straight lines, zero curves. Uniform stroke ~20%.
+    Sharp mitered corners only — no chamfers, no bevels.<br>
+    <strong>COORDINATE SYSTEM:</strong> 0-100 normalized viewport. Scale to any target size.<br>
+    <strong>S:</strong> Backwards Z (Sig rune) — diagonal upper-left to lower-right, ~67 deg from horizontal.<br>
+    <strong>O:</strong> Pure rectangle (NOT octagonal). Rectangular counter.<br>
+    <strong>B:</strong> Bar rune — vertical spine + 2 angular chevron bumps pointing right.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-19.0 -19.0 98.0 138.0">
+  <!-- R — Maelstrom Alphabet v6 skeleton -->
+  <!-- Coordinate system: 0-100 normalized, Y-flipped for SVG -->
+
+  <!-- Grid lines -->
+  <line x1="0" y1="0" x2="60" y2="0" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="100" x2="60" y2="100" stroke="#333" stroke-width="0.3" stroke-dasharray="2,2"/>
+  <line x1="0" y1="50.0" x2="60" y2="50.0" stroke="#333" stroke-width="0.3" stroke-dasharray="1,3"/>
+  <line x1="0" y1="0" x2="0" y2="100" stroke="#333" stroke-width="0.3"/>
+  <line x1="60" y1="0" x2="60" y2="100" stroke="#333" stroke-width="0.3"/>
+
+  <path d="M 14.0 100.0 L 14.0 0.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <path d="M 14.0 0.0 L 45.0 0.0 L 45.0 50.0 L 14.0 50.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <path d="M 14.0 50.0 L 43.0 100.0" fill="none" stroke="#e8e0d4" stroke-width="28" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4"/>
+  <!-- Center-line markers -->
+  <circle cx="14.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="45.0" cy="0.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="45.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="14.0" cy="50.0" r="1.2" fill="#f94238" opacity="0.7"/>
+  <circle cx="43.0" cy="100.0" r="1.2" fill="#f94238" opacity="0.7"/>
+</svg>

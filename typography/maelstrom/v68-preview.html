@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bonfire Maelstrom v6.8 — Brush Weight</title>
+<style>
+@font-face { font-family: 'BM'; src: url('BonfireMaelstrom-Regular.otf') format('opentype'); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #0a0a0a; color: #ccc; font-family: 'Courier New', monospace; padding: 20px; }
+h1 { color: #f94238; font-size: 15px; letter-spacing: 4px; text-align: center; margin-bottom: 4px; }
+.sub { color: #555; font-size: 10px; text-align: center; margin-bottom: 16px; }
+
+.ref-strip { max-width: 1100px; margin: 0 auto 12px; text-align: center; }
+.ref-strip img { max-height: 70px; border: 1px solid #222; }
+.ref-strip .tag { font-size: 9px; color: #444; margin-top: 2px; }
+
+.principles { max-width: 1100px; margin: 0 auto 16px; display: flex; gap: 8px; }
+.principle { flex: 1; background: #111; border: 1px solid #222; padding: 8px; text-align: center; }
+.principle .num { color: #f94238; font-size: 18px; font-weight: bold; }
+.principle .title { color: #b29d60; font-size: 9px; letter-spacing: 2px; margin: 4px 0 2px; }
+.principle .desc { color: #555; font-size: 8px; line-height: 1.4; }
+
+.grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; max-width: 1100px; margin: 0 auto 20px; }
+.card { background: #111; border: 1px solid #222; padding: 8px 4px 6px; text-align: center; position: relative; }
+.card.changed { border-color: #5a3a1a; }
+.badge { position: absolute; top: 4px; right: 4px; font-size: 7px; padding: 1px 4px; border-radius: 2px; }
+.badge.mod { background: #3a2a1a; color: #f94238; }
+.badge.ok { background: #1a2a1a; color: #4ade4a; }
+
+.lbl { font-size: 10px; color: #b29d60; font-weight: bold; letter-spacing: 2px; margin-bottom: 4px; }
+
+.compare { display: flex; gap: 3px; justify-content: center; align-items: flex-end; margin: 4px 0; }
+.compare > div { text-align: center; flex: 1; }
+.compare img { width: 100%; max-height: 110px; object-fit: contain; background: #000; border: 1px solid #1a1a1a; display: block; }
+.compare .tag { font-size: 7px; color: #444; margin-top: 1px; }
+.compare .tag.ref-tag { color: #6af; }
+.compare .tag.gen-tag { color: #b29d60; }
+
+.font-render { font-family: 'BM', monospace; font-size: 64px; color: #e8e0d4; line-height: 1;
+  height: 70px; display: flex; align-items: center; justify-content: center; background: #080808;
+  border: 1px solid #1a1a1a; margin-top: 4px; }
+
+.dims { font-size: 8px; color: #555; margin-top: 3px; }
+.dims .old { text-decoration: line-through; color: #5a2a2a; }
+.dims .new { color: #6af; }
+.dims .w { color: #b29d60; }
+
+.landmark { font-size: 7px; color: #444; line-height: 1.4; margin-top: 3px; text-align: left; padding: 0 4px; }
+.landmark span { color: #6af; }
+
+.specimen { font-family: 'BM', monospace; color: #e8e0d4; text-align: center; letter-spacing: 6px; }
+.specimen-lg { font-size: 56px; line-height: 1.3; margin: 16px 0 8px; }
+.specimen-sm { font-size: 22px; line-height: 1.5; margin: 4px 0; color: #b29d60; }
+
+.summary { max-width: 1100px; margin: 16px auto 0; background: #111; border: 1px solid #222;
+  padding: 10px 14px; font-size: 10px; color: #666; line-height: 1.8; }
+.summary strong { color: #b29d60; }
+.summary .g { color: #4ade4a; }
+.summary .r { color: #de4a4a; }
+</style>
+</head>
+<body>
+
+<h1>BONFIRE MAELSTROM v6.8 &mdash; BRUSH WEIGHT</h1>
+<div class="sub">SW=20&rarr;28 | Foundation First | Brush Thinking | Build by Negative Space</div>
+
+<div class="ref-strip">
+  <img src="refs/maelstrom-font-reference-sot.JPG" alt="MAELSTROM ref">
+  <img src="refs/Armanen_Runes.JPG" alt="Armanen runes" style="max-height:70px;">
+  <div class="tag">SOURCE OF TRUTH &mdash; confirmed UPRIGHT (0.0&deg; oblique)</div>
+</div>
+
+<div class="principles">
+  <div class="principle">
+    <div class="num">1</div>
+    <div class="title">FOUNDATION FIRST</div>
+    <div class="desc">Block every letter with basic shapes. Match core geometry before grunge.</div>
+  </div>
+  <div class="principle">
+    <div class="num">2</div>
+    <div class="title">BRUSH THINKING</div>
+    <div class="desc">Wide flat paintbrush. SW=28. One confident stroke per section. No thin lines.</div>
+  </div>
+  <div class="principle">
+    <div class="num">3</div>
+    <div class="title">NEGATIVE SPACE</div>
+    <div class="desc">Carve from solid blocks. Focus on silhouette and inner counters first.</div>
+  </div>
+</div>
+
+<div class="grid">
+
+  <!-- M -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">M</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-M.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-M.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">M</div>
+    <div class="dims"><span class="w">W=90</span> <span class="new">SW=28</span></div>
+    <div class="landmark">
+      V-notch: <span>y=88, 4u floor</span><br>
+      Solid: <span>y=88&rarr;55</span><br>
+      Leg gap: <span>y=55&rarr;0 (NEW)</span><br>
+      Horns: <span>28u wide</span>
+    </div>
+  </div>
+
+  <!-- A -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">A</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-A.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-A.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">A</div>
+    <div class="dims"><span class="old">W=95</span> &rarr; <span class="new">W=90</span></div>
+    <div class="landmark">
+      Base gap: <span>30u (was 54u)</span><br>
+      Counter: <span>6u nick</span><br>
+      Crossbar: <span>y=30</span><br>
+      Legs: <span>~30u thick</span>
+    </div>
+  </div>
+
+  <!-- E -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">E</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-E.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-E.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">E</div>
+    <div class="dims"><span class="old">W=54</span> &rarr; <span class="new">W=62</span></div>
+    <div class="landmark">
+      Spine: <span>28u (was 20)</span><br>
+      Top: <span>38 (61%)</span><br>
+      Mid: <span>46 (74%)</span><br>
+      Bot: <span>62 (100%)</span>
+    </div>
+  </div>
+
+  <!-- L -->
+  <div class="card">
+    <div class="badge ok">OK</div>
+    <div class="lbl">L</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-L.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-L.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">L</div>
+    <div class="dims"><span class="w">W=42</span> <span class="new">SW=28</span></div>
+    <div class="landmark">
+      Stem: <span>x=0-28 (67%w)</span><br>
+      Arm: <span>x=0-42</span>
+    </div>
+  </div>
+
+  <!-- S -->
+  <div class="card">
+    <div class="badge ok">OK</div>
+    <div class="lbl">S</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-S.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-S.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">S</div>
+    <div class="dims"><span class="w">W=47</span> <span class="new">SW=28</span></div>
+    <div class="landmark">
+      Zigzag: <span>Sig rune</span><br>
+      Stroke: <span>28u (was 20)</span>
+    </div>
+  </div>
+
+  <!-- T -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">T</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-T.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-T.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">T</div>
+    <div class="dims"><span class="w">W=82</span> <span class="new">SW=28</span></div>
+    <div class="landmark">
+      Stem: <span>x=27-55 (28u)</span><br>
+      Bar: <span>28u thick</span>
+    </div>
+  </div>
+
+  <!-- R -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">R</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-R.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-R.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">R</div>
+    <div class="dims"><span class="w">W=60</span> <span class="new">SW=28</span></div>
+    <div class="landmark">
+      Stem: <span>0-28 (47%w)</span><br>
+      Counter: <span>~3u carved</span><br>
+      Leg: <span>28u, 3:2 steep</span>
+    </div>
+  </div>
+
+  <!-- O -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">O</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-O.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-O.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">O</div>
+    <div class="dims"><span class="old">W=58</span> &rarr; <span class="new">W=68</span></div>
+    <div class="landmark">
+      Walls: <span>28u (41%w)</span><br>
+      Counter: <span>12&times;44</span>
+    </div>
+  </div>
+
+  <!-- B -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">B</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-B.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-B.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">B</div>
+    <div class="dims"><span class="old">W=55</span> &rarr; <span class="new">W=65</span></div>
+    <div class="landmark">
+      Spine: <span>28u</span><br>
+      Chevrons: <span>28u stroke</span>
+    </div>
+  </div>
+
+  <!-- I -->
+  <div class="card changed">
+    <div class="badge mod">v6.8</div>
+    <div class="lbl">I</div>
+    <div class="compare">
+      <div><img src="overlay-audit/v66/ref-I.png"><div class="tag ref-tag">REF</div></div>
+      <div><img src="overlay-audit/v66/gen-I.png"><div class="tag gen-tag">GEN</div></div>
+    </div>
+    <div class="font-render">I</div>
+    <div class="dims"><span class="old">W=20</span> &rarr; <span class="new">W=28</span></div>
+    <div class="landmark">
+      Stem: <span>x=0-28 (=SW)</span>
+    </div>
+  </div>
+
+</div>
+
+<div class="specimen specimen-lg">MAELSTROM</div>
+<div class="specimen specimen-sm">BONFIRE MAELSTROM TYPE</div>
+<div class="specimen specimen-sm" style="margin-top:8px;">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+
+<div class="summary">
+  <strong>v6.8 BRUSH WEIGHT CHANGES (SW=20&rarr;28):</strong><br>
+  <strong>3IFEN fixes:</strong>
+  1. SW 20&rarr;28 (ref stems ~29u) |
+  2. M: leg separation gap y=55&rarr;0 (ref has 48.7% void from legs) |
+  3. A: base gap 54u&rarr;30u, counter 6u nick (ref density 67%)<br>
+  <strong>Width changes:</strong>
+  A(95&rarr;90) E(54&rarr;62) O(58&rarr;68) B(55&rarr;65) I(20&rarr;28)<br>
+  <strong>Derived updates:</strong>
+  F(38&rarr;46) P(55&rarr;65) D(58&rarr;68) G(52&rarr;56) H(52&rarr;62)
+  K(52&rarr;60) N(52&rarr;58) U(52&rarr;62) V(58&rarr;64) X(52&rarr;66) Y(52&rarr;60)<br>
+  <strong>NCC (informational, sigma=20):</strong>
+  <span class="g">E:97.7 L:98.6 S:96.4 O:97.0 I:99.2</span> |
+  <span class="r">T:94.6 B:93.2 A:92.4 M:86.7 R:84.3</span>
+  &mdash; 5/10 pass (was 2/10). Thicker strokes improved E/S/O to passing.
+</div>
+
+</body>
+</html>
