@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Film strip -->
+  <rect x="25" y="40" width="150" height="120" rx="6" fill="#1A1A1A"/>
+  <!-- Sprocket holes top -->
+  <rect x="32" y="45" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="52" y="45" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="72" y="45" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="92" y="45" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="112" y="45" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="132" y="45" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="152" y="45" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <!-- Sprocket holes bottom -->
+  <rect x="32" y="145" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="52" y="145" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="72" y="145" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="92" y="145" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="112" y="145" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="132" y="145" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <rect x="152" y="145" width="12" height="10" rx="2" fill="#2A2A2A"/>
+  <!-- Frame area -->
+  <rect x="32" y="60" width="136" height="80" rx="3" fill="#2A2A2A"/>
+  <!-- Play button in frame -->
+  <polygon points="90,85 90,115 115,100" fill="#FFFFFF" opacity="0.2"/>
+  <!-- Magic wand -->
+  <line x1="130" y1="30" x2="155" y2="55" stroke="#B29D60" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="128" cy="28" r="4" fill="#D0B871"/>
+  <!-- Sparkles -->
+  <path d="M140,20 L142,15 L144,20 L149,22 L144,24 L142,29 L140,24 L135,22 Z" fill="#B29D60"/>
+  <path d="M160,40 L161,37 L162,40 L165,41 L162,42 L161,45 L160,42 L157,41 Z" fill="#D0B871"/>
+  <path d="M120,15 L121,12 L122,15 L125,16 L122,17 L121,20 L120,17 L117,16 Z" fill="#B29D60" opacity="0.7"/>
+  <!-- Frame dividers -->
+  <line x1="78" y1="60" x2="78" y2="140" stroke="#1A1A1A" stroke-width="2"/>
+  <line x1="122" y1="60" x2="122" y2="140" stroke="#1A1A1A" stroke-width="2"/>
+</svg>

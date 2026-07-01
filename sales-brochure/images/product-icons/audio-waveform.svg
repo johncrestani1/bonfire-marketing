@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Microphone body -->
+  <rect x="82" y="35" width="36" height="65" rx="18" fill="#F94238"/>
+  <!-- Microphone grille lines -->
+  <line x1="87" y1="50" x2="113" y2="50" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
+  <line x1="87" y1="57" x2="113" y2="57" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
+  <line x1="87" y1="64" x2="113" y2="64" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
+  <line x1="87" y1="71" x2="113" y2="71" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
+  <line x1="87" y1="78" x2="113" y2="78" stroke="#FFFFFF" stroke-width="0.8" opacity="0.3"/>
+  <!-- Microphone highlight -->
+  <rect x="88" y="38" width="6" height="55" rx="3" fill="#FFFFFF" opacity="0.15"/>
+  <!-- Mic holder arc -->
+  <path d="M70,90 Q70,120 100,120 Q130,120 130,90" fill="none" stroke="#1A1A1A" stroke-width="5"/>
+  <path d="M70,90 Q70,120 100,120 Q130,120 130,90" fill="none" stroke="#B29D60" stroke-width="3"/>
+  <!-- Mic stand -->
+  <line x1="100" y1="120" x2="100" y2="155" stroke="#B29D60" stroke-width="3"/>
+  <!-- Mic base -->
+  <ellipse cx="100" cy="158" rx="25" ry="6" fill="#1A1A1A"/>
+  <ellipse cx="100" cy="157" rx="22" ry="4" fill="#B29D60" opacity="0.3"/>
+  <!-- Sound waves - left -->
+  <path d="M65,60 Q55,75 65,90" fill="none" stroke="#B29D60" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M55,50 Q40,75 55,100" fill="none" stroke="#B29D60" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M45,42 Q25,75 45,108" fill="none" stroke="#D0B871" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+  <!-- Sound waves - right -->
+  <path d="M135,60 Q145,75 135,90" fill="none" stroke="#B29D60" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M145,50 Q160,75 145,100" fill="none" stroke="#B29D60" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M155,42 Q175,75 155,108" fill="none" stroke="#D0B871" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+</svg>

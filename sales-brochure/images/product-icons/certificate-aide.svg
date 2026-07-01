@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Ribbon tails -->
+  <path d="M75,145 L65,185 L80,170 L95,185 L90,145 Z" fill="#F94238"/>
+  <path d="M110,145 L105,185 L120,170 L135,185 L125,145 Z" fill="#F94238"/>
+  <!-- Ribbon darker folds -->
+  <path d="M80,170 L75,155 L85,145" fill="none" stroke="#D93830" stroke-width="1"/>
+  <path d="M120,170 L115,155 L110,145" fill="none" stroke="#D93830" stroke-width="1"/>
+  <!-- Seal outer ring -->
+  <circle cx="100" cy="100" r="55" fill="#B29D60"/>
+  <!-- Scalloped edge -->
+  <g fill="#B29D60">
+    <circle cx="100" cy="42" r="8"/>
+    <circle cx="125" cy="47" r="8"/>
+    <circle cx="145" cy="62" r="8"/>
+    <circle cx="155" cy="85" r="8"/>
+    <circle cx="155" cy="110" r="8"/>
+    <circle cx="145" cy="133" r="8"/>
+    <circle cx="128" cy="148" r="8"/>
+    <circle cx="105" cy="155" r="8"/>
+    <circle cx="80" cy="150" r="8"/>
+    <circle cx="60" cy="138" r="8"/>
+    <circle cx="48" cy="118" r="8"/>
+    <circle cx="45" cy="95" r="8"/>
+    <circle cx="50" cy="72" r="8"/>
+    <circle cx="65" cy="53" r="8"/>
+    <circle cx="85" cy="43" r="8"/>
+  </g>
+  <!-- Inner ring -->
+  <circle cx="100" cy="100" r="48" fill="#D0B871"/>
+  <!-- Inner dark circle -->
+  <circle cx="100" cy="100" r="40" fill="#1A1A1A"/>
+  <!-- Gold inner border -->
+  <circle cx="100" cy="100" r="37" fill="none" stroke="#B29D60" stroke-width="1.5"/>
+  <!-- AIDE text -->
+  <text x="100" y="108" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#B29D60" text-anchor="middle" letter-spacing="4">AIDE</text>
+  <!-- Small star above text -->
+  <polygon points="100,72 103,80 112,80 105,85 107,94 100,89 93,94 95,85 88,80 97,80" fill="#B29D60" opacity="0.7"/>
+  <!-- Decorative dots -->
+  <circle cx="80" cy="120" r="1.5" fill="#B29D60" opacity="0.4"/>
+  <circle cx="120" cy="120" r="1.5" fill="#B29D60" opacity="0.4"/>
+</svg>

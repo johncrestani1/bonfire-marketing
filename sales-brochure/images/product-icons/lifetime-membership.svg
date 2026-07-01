@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Badge body -->
+  <rect x="35" y="45" width="130" height="90" rx="10" fill="#1A1A1A"/>
+  <rect x="38" y="48" width="124" height="84" rx="8" fill="none" stroke="#B29D60" stroke-width="1.5"/>
+  <!-- Crown -->
+  <path d="M70,35 L75,20 L85,30 L100,12 L115,30 L125,20 L130,35 Z" fill="#B29D60"/>
+  <path d="M73,35 L77,23 L86,31 L100,16 L114,31 L123,23 L127,35 Z" fill="#D0B871"/>
+  <!-- Crown jewels -->
+  <circle cx="100" cy="26" r="2.5" fill="#F94238"/>
+  <circle cx="85" cy="30" r="2" fill="#F94238" opacity="0.7"/>
+  <circle cx="115" cy="30" r="2" fill="#F94238" opacity="0.7"/>
+  <!-- Card stripe -->
+  <rect x="35" y="65" width="130" height="15" fill="#F94238" opacity="0.8"/>
+  <!-- Text lines on card -->
+  <rect x="50" y="95" width="60" height="4" rx="2" fill="#B29D60" opacity="0.5"/>
+  <rect x="50" y="105" width="45" height="4" rx="2" fill="#B29D60" opacity="0.3"/>
+  <!-- Star emblem -->
+  <polygon points="140,100 143,108 152,108 145,113 147,122 140,117 133,122 135,113 128,108 137,108" fill="#B29D60" opacity="0.6"/>
+  <!-- Chip -->
+  <rect x="50" y="52" width="20" height="14" rx="2" fill="#B29D60" opacity="0.4"/>
+  <line x1="55" y1="52" x2="55" y2="66" stroke="#1A1A1A" stroke-width="0.5"/>
+  <line x1="60" y1="52" x2="60" y2="66" stroke="#1A1A1A" stroke-width="0.5"/>
+  <line x1="65" y1="52" x2="65" y2="66" stroke="#1A1A1A" stroke-width="0.5"/>
+  <!-- Bottom ribbon -->
+  <path d="M70,135 L100,145 L130,135 L130,155 L115,150 L100,160 L85,150 L70,155 Z" fill="#F94238"/>
+  <path d="M75,137 L100,146 L125,137 L125,152 L113,148 L100,156 L87,148 L75,152 Z" fill="#F94238" opacity="0.8"/>
+</svg>

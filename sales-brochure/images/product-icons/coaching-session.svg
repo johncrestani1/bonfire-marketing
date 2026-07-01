@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Left person -->
+  <circle cx="60" cy="75" r="20" fill="#1A1A1A"/>
+  <path d="M30,165 Q30,120 60,115 Q90,120 90,165" fill="#1A1A1A"/>
+  <!-- Left person face highlight -->
+  <circle cx="60" cy="75" r="17" fill="#2A2A2A"/>
+  <!-- Right person -->
+  <circle cx="140" cy="75" r="20" fill="#1A1A1A"/>
+  <path d="M110,165 Q110,120 140,115 Q170,120 170,165" fill="#1A1A1A"/>
+  <!-- Right person face highlight -->
+  <circle cx="140" cy="75" r="17" fill="#2A2A2A"/>
+  <!-- Lightbulb between them -->
+  <!-- Bulb glass -->
+  <path d="M100,30 Q118,30 118,50 Q118,62 108,68 L108,78 L92,78 L92,68 Q82,62 82,50 Q82,30 100,30 Z" fill="#B29D60"/>
+  <!-- Bulb highlight -->
+  <path d="M95,35 Q88,40 88,50 Q88,58 93,63" fill="none" stroke="#D0B871" stroke-width="2" opacity="0.5"/>
+  <!-- Bulb base -->
+  <rect x="92" y="78" width="16" height="4" rx="1" fill="#D0B871"/>
+  <rect x="93" y="83" width="14" height="3" rx="1" fill="#B29D60"/>
+  <rect x="94" y="87" width="12" height="3" rx="1" fill="#D0B871"/>
+  <path d="M96,90 L104,90 L102,94 Q100,96 98,94 Z" fill="#B29D60"/>
+  <!-- Light rays -->
+  <line x1="100" y1="18" x2="100" y2="10" stroke="#D0B871" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <line x1="120" y1="25" x2="126" y2="18" stroke="#D0B871" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="80" y1="25" x2="74" y2="18" stroke="#D0B871" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <line x1="128" y1="40" x2="135" y2="37" stroke="#D0B871" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <line x1="72" y1="40" x2="65" y2="37" stroke="#D0B871" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <!-- Connection lines from people to idea -->
+  <path d="M75,65 Q85,45 92,48" fill="none" stroke="#B29D60" stroke-width="1" opacity="0.3" stroke-dasharray="3,2"/>
+  <path d="M125,65 Q115,45 108,48" fill="none" stroke="#B29D60" stroke-width="1" opacity="0.3" stroke-dasharray="3,2"/>
+</svg>

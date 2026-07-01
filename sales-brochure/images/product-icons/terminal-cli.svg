@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Terminal window -->
+  <rect x="20" y="30" width="160" height="140" rx="10" fill="#1A1A1A"/>
+  <!-- Title bar -->
+  <rect x="20" y="30" width="160" height="28" rx="10" fill="#2A2A2A"/>
+  <rect x="20" y="48" width="160" height="10" fill="#2A2A2A"/>
+  <!-- Window controls -->
+  <circle cx="40" cy="44" r="5" fill="#F94238"/>
+  <circle cx="58" cy="44" r="5" fill="#B29D60"/>
+  <circle cx="76" cy="44" r="5" fill="#2D8B46"/>
+  <!-- Terminal content area -->
+  <rect x="28" y="62" width="144" height="100" fill="#0D0D0D" rx="2"/>
+  <!-- Command prompt lines -->
+  <text x="36" y="82" font-family="monospace" font-size="12" fill="#2D8B46">$</text>
+  <rect x="48" y="74" width="80" height="10" rx="1" fill="#2D8B46" opacity="0.6"/>
+  <text x="36" y="100" font-family="monospace" font-size="12" fill="#2D8B46">$</text>
+  <rect x="48" y="92" width="55" height="10" rx="1" fill="#B29D60" opacity="0.5"/>
+  <text x="36" y="118" font-family="monospace" font-size="12" fill="#2D8B46">$</text>
+  <rect x="48" y="110" width="95" height="10" rx="1" fill="#2D8B46" opacity="0.4"/>
+  <!-- Blinking cursor -->
+  <rect x="36" y="128" width="8" height="14" rx="1" fill="#2D8B46" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Bonfire branding dot -->
+  <circle cx="160" cy="44" r="3" fill="#F94238" opacity="0.5"/>
+</svg>

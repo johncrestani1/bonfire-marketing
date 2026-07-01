@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Shield shape -->
+  <path d="M100,15 L165,45 L165,100 Q165,155 100,185 Q35,155 35,100 L35,45 Z" fill="#1A1A1A"/>
+  <!-- Shield inner border -->
+  <path d="M100,25 L158,50 L158,100 Q158,148 100,175 Q42,148 42,100 L42,50 Z" fill="none" stroke="#B29D60" stroke-width="2"/>
+  <!-- Shield highlight -->
+  <path d="M100,30 L155,53 L155,100 Q155,145 100,170 Q45,145 45,100 L45,53 Z" fill="#222222"/>
+  <!-- Lock body -->
+  <rect x="80" y="95" width="40" height="35" rx="5" fill="#B29D60"/>
+  <!-- Lock shackle -->
+  <path d="M85,95 L85,78 Q85,62 100,62 Q115,62 115,78 L115,95" fill="none" stroke="#B29D60" stroke-width="6" stroke-linecap="round"/>
+  <!-- Lock inner shackle -->
+  <path d="M88,95 L88,80 Q88,67 100,67 Q112,67 112,80 L112,95" fill="none" stroke="#D0B871" stroke-width="3" stroke-linecap="round"/>
+  <!-- Keyhole -->
+  <circle cx="100" cy="108" r="5" fill="#1A1A1A"/>
+  <rect x="98" y="110" width="4" height="10" rx="1" fill="#1A1A1A"/>
+  <!-- Shield top accent -->
+  <path d="M100,30 L155,53 L155,65 L100,42 L45,65 L45,53 Z" fill="#B29D60" opacity="0.15"/>
+</svg>

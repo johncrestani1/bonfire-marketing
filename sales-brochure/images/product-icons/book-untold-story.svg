@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#B29D60"/>
+      <stop offset="100%" stop-color="#D0B871"/>
+    </linearGradient>
+  </defs>
+  <!-- Book back cover -->
+  <rect x="45" y="50" width="110" height="120" rx="3" fill="#1A1A1A"/>
+  <!-- Book pages -->
+  <rect x="50" y="48" width="100" height="118" rx="2" fill="#FFFFFF" stroke="#B29D60" stroke-width="0.5"/>
+  <line x1="55" y1="80" x2="145" y2="80" stroke="#E0D8C8" stroke-width="1"/>
+  <line x1="55" y1="95" x2="145" y2="95" stroke="#E0D8C8" stroke-width="1"/>
+  <line x1="55" y1="110" x2="130" y2="110" stroke="#E0D8C8" stroke-width="1"/>
+  <line x1="55" y1="125" x2="140" y2="125" stroke="#E0D8C8" stroke-width="1"/>
+  <line x1="55" y1="140" x2="120" y2="140" stroke="#E0D8C8" stroke-width="1"/>
+  <!-- Book front cover -->
+  <path d="M40,45 L40,170 Q40,175 45,175 L150,175 Q155,175 155,170 L155,45 Q155,40 150,40 L45,40 Q40,40 40,45 Z" fill="#1A1A1A" opacity="0.9"/>
+  <!-- Spine highlight -->
+  <rect x="40" y="40" width="8" height="135" rx="2" fill="#2A2A2A"/>
+  <!-- Flame from spine -->
+  <path d="M44,40 C44,30 55,25 50,12 C58,22 65,18 60,5 C70,20 72,28 65,35 C62,38 55,40 50,40 C47,40 44,40 44,40 Z" fill="url(#flame)"/>
+  <path d="M47,40 C47,33 53,28 51,18 C56,26 60,24 58,15 C64,25 65,30 61,35 C59,38 53,40 51,40 Z" fill="#D0B871" opacity="0.8"/>
+  <!-- Book title area -->
+  <rect x="55" y="70" width="85" height="3" rx="1" fill="#B29D60" opacity="0.6"/>
+  <rect x="55" y="78" width="70" height="3" rx="1" fill="#B29D60" opacity="0.4"/>
+  <rect x="55" y="86" width="60" height="3" rx="1" fill="#B29D60" opacity="0.3"/>
+  <!-- Decorative border on cover -->
+  <rect x="50" y="55" width="95" height="100" rx="2" fill="none" stroke="#B29D60" stroke-width="1" opacity="0.3"/>
+</svg>

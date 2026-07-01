@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Dark circular badge -->
+  <circle cx="100" cy="100" r="85" fill="#1A1A1A"/>
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#B29D60" stroke-width="2"/>
+  <circle cx="100" cy="100" r="77" fill="none" stroke="#B29D60" stroke-width="0.5" opacity="0.4"/>
+  <!-- Infinity symbol -->
+  <path d="M55,100 C55,80 75,70 90,85 L100,95 L110,85 C125,70 145,80 145,100 C145,120 125,130 110,115 L100,105 L90,115 C75,130 55,120 55,100 Z"
+        fill="none" stroke="#B29D60" stroke-width="6" stroke-linecap="round"/>
+  <!-- Key teeth integrated into right loop -->
+  <line x1="145" y1="100" x2="165" y2="100" stroke="#B29D60" stroke-width="4" stroke-linecap="round" opacity="0"/>
+  <!-- Shield accent in center -->
+  <path d="M95,92 L100,88 L105,92 L105,102 Q100,108 95,102 Z" fill="#B29D60" opacity="0.6"/>
+  <!-- Key shape merged at bottom -->
+  <circle cx="100" cy="100" r="5" fill="#D0B871"/>
+  <circle cx="100" cy="100" r="3" fill="#1A1A1A"/>
+  <!-- Decorative dots -->
+  <circle cx="100" cy="35" r="2" fill="#B29D60" opacity="0.5"/>
+  <circle cx="100" cy="165" r="2" fill="#B29D60" opacity="0.5"/>
+  <circle cx="35" cy="100" r="2" fill="#B29D60" opacity="0.5"/>
+  <circle cx="165" cy="100" r="2" fill="#B29D60" opacity="0.5"/>
+</svg>

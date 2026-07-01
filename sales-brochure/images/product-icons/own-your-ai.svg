@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- House shape -->
+  <path d="M100,25 L170,80 L170,170 Q170,175 165,175 L35,175 Q30,175 30,170 L30,80 Z" fill="#F94238"/>
+  <!-- House darker front -->
+  <path d="M100,25 L170,80 L170,170 Q170,175 165,175 L100,175 L100,25 Z" fill="#D93830" opacity="0.5"/>
+  <!-- Door -->
+  <rect x="82" y="125" width="36" height="50" rx="3" fill="#1A1A1A"/>
+  <circle cx="112" cy="152" r="2.5" fill="#B29D60"/>
+  <!-- Chimney -->
+  <rect x="135" y="35" width="18" height="35" fill="#1A1A1A"/>
+  <!-- Window left -->
+  <rect x="45" y="90" width="28" height="28" rx="2" fill="#1A1A1A"/>
+  <!-- Window right -->
+  <rect x="127" y="90" width="28" height="28" rx="2" fill="#1A1A1A"/>
+  <!-- Circuit brain pattern in left window -->
+  <circle cx="59" cy="104" r="4" fill="none" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="59" y1="96" x2="59" y2="100" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="59" y1="108" x2="59" y2="114" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="51" y1="104" x2="55" y2="104" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="63" y1="104" x2="69" y2="104" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="55" y1="99" x2="51" y2="95" stroke="#B29D60" stroke-width="1"/>
+  <line x1="63" y1="99" x2="67" y2="95" stroke="#B29D60" stroke-width="1"/>
+  <!-- Circuit brain pattern in right window -->
+  <circle cx="141" cy="104" r="4" fill="none" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="141" y1="96" x2="141" y2="100" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="141" y1="108" x2="141" y2="114" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="133" y1="104" x2="137" y2="104" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="145" y1="104" x2="151" y2="104" stroke="#B29D60" stroke-width="1.5"/>
+  <line x1="137" y1="99" x2="133" y2="95" stroke="#B29D60" stroke-width="1"/>
+  <line x1="145" y1="99" x2="149" y2="95" stroke="#B29D60" stroke-width="1"/>
+  <!-- Circuit traces on door -->
+  <line x1="100" y1="130" x2="100" y2="145" stroke="#B29D60" stroke-width="1" opacity="0.6"/>
+  <line x1="95" y1="140" x2="105" y2="140" stroke="#B29D60" stroke-width="1" opacity="0.6"/>
+  <circle cx="100" cy="140" r="2" fill="#B29D60" opacity="0.5"/>
+  <!-- Roof edge highlight -->
+  <path d="M100,25 L170,80 L30,80 Z" fill="none" stroke="#D0B871" stroke-width="1" opacity="0.4"/>
+</svg>
