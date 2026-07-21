@@ -131,13 +131,14 @@
 
       if private {
         // Private contact info with icons
+        // REDACTED — replace with your own contact details
         grid(columns: (12pt, 1fr), column-gutter: 4pt, row-gutter: 3pt,
           image(img + "contact-icons/email.png", width: 10pt),
-          text(size: 9pt, styled-link("mailto:john.crestani@gmail.com", "john.crestani\u{0040}gmail.com")),
+          text(size: 9pt, styled-link("mailto:you@example.com", "you\u{0040}example.com")),
           image(img + "contact-icons/phone.png", width: 10pt),
-          text(size: 9pt, "(310) 292-9369"),
+          text(size: 9pt, "(000) 000-0000"),
           image(img + "contact-icons/telegram.png", width: 10pt),
-          text(size: 9pt, styled-link("https://t.me/marketeering", "\u{0040}marketeering")),
+          text(size: 9pt, styled-link("https://t.me/username", "\u{0040}username")),
         )
         v(2pt)
       }
