@@ -28,7 +28,14 @@ All assets use `{{REFERRAL_URL}}` as a placeholder — works with any affiliate 
 
 ## For Press
 
-- **Podcast press sheet**: [`press/podcast-press-sheet.md`](press/podcast-press-sheet.md) — bio, headshot, talking points, product summary, stats
+- **Podcast one-sheet (v8)**: [`press/podcast-one-sheet/v8/`](press/podcast-one-sheet/v8/) — Typst source, compiled PDF/PNG/JPG, all image assets
+  - Public PDF: [`output/press-sheet-v8-public.pdf`](press/podcast-one-sheet/v8/output/press-sheet-v8-public.pdf)
+  - Public PNG (300 DPI): [`output/press-sheet-v8-public.png`](press/podcast-one-sheet/v8/output/press-sheet-v8-public.png)
+  - Private PDF (with contact info): [`output/press-sheet-v8-private.pdf`](press/podcast-one-sheet/v8/output/press-sheet-v8-private.pdf)
+  - Typst source: [`press-sheet-v8.typ`](press/podcast-one-sheet/v8/press-sheet-v8.typ)
+  - Requires: [Orbitron](https://fonts.google.com/specimen/Orbitron) + SF Pro Text (with italic variant) fonts
+  - Compile: `typst compile --font-path <sf-pro-fonts-dir> press-sheet-v8.typ output.pdf`
+- **Podcast press sheet (markdown)**: [`press/podcast-press-sheet.md`](press/podcast-press-sheet.md)
 - **Company boilerplate**: [`press/company-boilerplate.md`](press/company-boilerplate.md)
 - **High-res logos**: [`logos/primary/`](logos/primary/) (up to 1024x1024)
 - **Product description**: [`copy/product-description.md`](copy/product-description.md)
